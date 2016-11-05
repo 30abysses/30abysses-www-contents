@@ -5,6 +5,7 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-86481758-1', 'auto');
+  ga('require', 'linkid');
   ga('send', 'pageview');
 
 </script>
