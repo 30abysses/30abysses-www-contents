@@ -1,0 +1,9 @@
+﻿<svg width="244" height="214">
+    <polygon points="10,107 66,10 178,10 234,107 178,204 66,204" style="fill:none; stroke:black; stroke-width:1" stroke-dasharray="2"/>
+    <polyline points="94,59 38,156" style="stroke:black; stroke-width:5"/>
+    <polyline points="66,107 94,156" style="stroke:black; stroke-width:5"/>
+    <polyline points="150,59 178,107" style="stroke:black; stroke-width:5"/>
+    <polyline points="206,59 150,156" style="stroke:black; stroke-width:5"/>
+    <polyline points="94,59 150,59" style="stroke:black; stroke-width:1" stroke-dasharray="1"/>
+    <polyline points="94,156 150,156" style="stroke:black; stroke-width:1" stroke-dasharray="1"/>
+</svg>
