@@ -7,5 +7,4 @@
   ga('create', 'UA-86481758-1', 'auto');
   ga('require', 'linkid');
   ga('send', 'pageview');
-
 </script>

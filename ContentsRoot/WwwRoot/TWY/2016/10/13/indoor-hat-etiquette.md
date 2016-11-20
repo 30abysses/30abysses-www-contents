@@ -64,7 +64,7 @@ https://www.google.com/search?tbm=isch&q=we+got+a+badass+over+here
 
 ##  「脫帽」是表達「示好、無惡意」的肢體語言
 
-這是 [洋鄉民 CinematicChief 的主張][2]  ，試譯如下
+這是 [洋鄉民 CinematicChief 的主張][2]  ，釋譯如下
 
 > 就我所知，這是源自中古世紀的傳統。在騎士晉見國王時，移除面甲、頭盔，露
 > 出脆弱的頭部、可識別的面孔，且因為雙手拿著頭盔，所以幾乎不可能同時拿著
