@@ -380,7 +380,14 @@ stream, reader, writer  以達成目的。易言之，就是在實務上作到
 
 # 探索 `GetHashCode()` 原始碼
 
-這個章節點出一些內建的 `GetHashCode()`  實作，作為參考。
+這個章節摘錄一些內建的 `GetHashCode()`  實作，作為參考。篇幅較大的原始碼
+（尤其是 C++  原始碼），只有附上連結，就不再轉錄。
+
+以下這個連結可以列出 `System` 下所有覆寫(override) `GetHashCode()`  的類
+別：
+
+https://github.com/dotnet/coreclr/search?utf8=%E2%9C%93&q=%22public+override+int+GetHashCode%22+extension%3Acs+path%3A%2Fsrc%2Fmscorlib%2Fsrc%2FSystem
+
 
 ## `System.Object`
 
@@ -438,4 +445,249 @@ https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/
 
 ```
     INT32 GetHashCodeEx();
+```
+
+
+## `System.Int32`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/Int32.cs#L76-L78
+
+```
+        public override int GetHashCode() {
+            return m_value;
+        }
+```
+
+
+## `System.UInt32`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/UInt32.cs#L76-L79
+
+```
+        // The absolute value of the int contained.
+        public override int GetHashCode() {
+            return ((int) m_value);
+        }
+```
+
+
+## `System.Int64`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/Int64.cs#L75-L77
+
+```
+        public override int GetHashCode() {
+            return (unchecked((int)((long)m_value)) ^ (int)(m_value >> 32));
+        }
+```
+
+
+## `System.UInt64`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/UInt64.cs#L73-L76
+
+```
+        // The value of the lower 32 bits XORed with the uppper 32 bits.
+        public override int GetHashCode() {
+            return ((int)m_value) ^ (int)(m_value >> 32);
+        }
+```
+
+
+## `System.Double`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/Double.cs#L190-L199
+
+```
+        [System.Security.SecuritySafeCritical]
+        public unsafe override int GetHashCode() {
+            double d = m_value;
+            if (d == 0) {
+                // Ensure that 0 and -0 have the same hash code
+                return 0;
+            }
+            long value = *(long*)(&d);
+            return unchecked((int)value) ^ ((int)(value >> 32));
+        }
+```
+
+
+## `System.Decimal`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/Decimal.cs#L441-L445
+
+```
+        // Returns the hash code for this Decimal.
+        //
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        [MethodImplAttribute(MethodImplOptions.InternalCall)]
+        public extern override int GetHashCode();
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/classlibnative/bcltype/decimal.h#L26
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/classlibnative/bcltype/decimal.cpp#L102-L126
+
+```
+    static FCDECL1(INT32, GetHashCode, DECIMAL *d);
+```
+
+
+## `System.String`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/String.Comparison.cs#L999-L1013
+
+```
+        // Gets a hash code for this string.  If strings A and B are such that A.Equals(B), then
+        // they will return the same hash code.
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        [ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
+        public override int GetHashCode()
+        {
+#if FEATURE_RANDOMIZED_STRING_HASHING
+            if (HashHelpers.s_UseRandomizedStringHashing)
+            {
+                return InternalMarvin32HashString(this, this.Length, 0);
+            }
+#endif // FEATURE_RANDOMIZED_STRING_HASHING
+
+            return GetLegacyNonRandomizedHashCode();
+        }
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/String.Comparison.cs#L1015-L1069
+
+```
+        // Use this if and only if you need the hashcode to not change across app domains (e.g. you have an app domain agile
+        // hash table).
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        [ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
+        internal int GetLegacyNonRandomizedHashCode() {
+            unsafe {
+                fixed (char* src = &m_firstChar) {
+                    Contract.Assert(src[this.Length] == '\0', "src[this.Length] == '\\0'");
+                    Contract.Assert( ((int)src)%4 == 0, "Managed string should start at 4 bytes boundary");
+#if BIT64
+                    int hash1 = 5381;
+#else // !BIT64 (32)
+                    int hash1 = (5381<<16) + 5381;
+#endif
+                    int hash2 = hash1;
+
+#if BIT64
+                    int     c;
+                    char *s = src;
+                    while ((c = s[0]) != 0) {
+                        hash1 = ((hash1 << 5) + hash1) ^ c;
+                        c = s[1];
+                        if (c == 0)
+                            break;
+                        hash2 = ((hash2 << 5) + hash2) ^ c;
+                        s += 2;
+                    }
+#else // !BIT64 (32)
+                    // 32 bit machines.
+                    int* pint = (int *)src;
+                    int len = this.Length;
+                    while (len > 2)
+                    {
+                        hash1 = ((hash1 << 5) + hash1 + (hash1 >> 27)) ^ pint[0];
+                        hash2 = ((hash2 << 5) + hash2 + (hash2 >> 27)) ^ pint[1];
+                        pint += 2;
+                        len  -= 4;
+                    }
+
+                    if (len > 0)
+                    {
+                        hash1 = ((hash1 << 5) + hash1 + (hash1 >> 27)) ^ pint[0];
+                    }
+#endif
+#if DEBUG
+                    // We want to ensure we can change our hash function daily.
+                    // This is perfectly fine as long as you don't persist the
+                    // value from GetHashCode to disk or count on String A 
+                    // hashing before string B.  Those are bugs in your code.
+                    hash1 ^= ThisAssembly.DailyBuildNumber;
+#endif
+                    return hash1 + (hash2 * 1566083941);
+                }
+            }
+        }
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/String.Comparison.cs#L982-L986
+
+```
+        // Do not remove!
+        // This method is called by reflection in System.Xml
+        [System.Security.SecurityCritical]
+        [MethodImplAttribute(MethodImplOptions.InternalCall)]
+        internal static extern int InternalMarvin32HashString(string s, int strLen, long additionalEntropy);
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/vm/ecalllist.h#L227
+
+```
+    FCFuncElement("InternalMarvin32HashString", COMString::Marvin32HashString)
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/classlibnative/bcltype/stringnative.h#L89
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/classlibnative/bcltype/stringnative.cpp#L171-L187
+
+```
+    static FCDECL3(INT32, Marvin32HashString, StringObject* thisRefUNSAFE, INT32 strLen, INT64 additionalEntropy);
+```
+
+
+## `System.Single`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/Single.cs#L166-L175
+
+```
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        public unsafe override int GetHashCode() {
+            float f = m_value;
+            if (f == 0) {
+                // Ensure that 0 and -0 have the same hash code
+                return 0;
+            }
+            int v = *(int*)(&f);
+            return v;
+        }
+```
+
+
+## `System.ValueType`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/ValueType.cs#L71-L83
+
+```
+        /*=================================GetHashCode==================================
+        **Action: Our algorithm for returning the hashcode is a little bit complex.  We look
+        **        for the first non-static field and get it's hashcode.  If the type has no
+        **        non-static fields, we return the hashcode of the type.  We can't take the
+        **        hashcode of a static member because if that member is of the same type as
+        **        the original type, we'll end up in an infinite loop.
+        **Returns: The hashcode for the type.
+        **Arguments: None.
+        **Exceptions: None.
+        ==============================================================================*/
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        [MethodImplAttribute(MethodImplOptions.InternalCall)]
+        public extern override int GetHashCode();
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/vm/ecalllist.h#L240
+
+```
+    FCFuncElement("GetHashCode", ValueTypeHelper::GetHashCode)
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/vm/comutilnative.h#L248
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/vm/comutilnative.cpp#L2778-L2823
+
+```
+    static FCDECL1(INT32, GetHashCode, Object* objRef);
 ```
