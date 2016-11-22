@@ -119,11 +119,11 @@
 
 用邏輯來說就是無法從「Ｐ→Ｑ」得出「Ｑ→Ｐ」；也就是 **無法** 從
 
-> Ｐ(相同物件) → Ｑ(傳回相同雜湊值)
+> Ｐ(相同／相等物件) → Ｑ(傳回相同雜湊值)
 
 得到
 
-> Ｑ(傳回相同雜湊值) → Ｐ(相同物件)
+> Ｑ(傳回相同雜湊值) → Ｐ(相同／相等物件)
 
 
 ## `GetHashCode()`  如何知道該怎麼判斷／計算其傳回值？
@@ -273,3 +273,105 @@ stream, reader, writer  以達成目的。易言之，就是在實務上作到
 而不是過度偏重理論上的乾淨與優雅。
 
 [15]: https://msdn.microsoft.com/en-us/library/system.io.file.aspx
+
+
+
+# `GetHashCode()` 深入探索
+
+基本上，[MSDN `GetHashCode()`  官方文件][1] 已提供了相當的資訊，但其機器
+翻譯版本實在慘不忍睹，甚至有錯…… `orz`  是故，以下摘要釋譯之。同時，
+[Eric Lippert 的文章][7]也值得細讀。
+
+有些地方會同時作些小實驗，測試環境如下：
+
+* 64-bit W10 Pro 1607
+* VS2015 Update 3
+
+
+## Ｐ(相同／相等物件) → Ｑ(傳回相同雜湊值)
+
+如果相同／相等物件傳回不同雜湊值，那代表著 `GetHashCode()`  或
+`Equals()`  裡有臭蟲。
+
+
+## Ｑ(傳回相同雜湊值) →╳→ Ｐ(相同／相等物件)
+
+```
+    Console.WriteLine(1L.GetHashCode());
+    Console.WriteLine(4294967296L.GetHashCode());
+```
+
+很明顯的， `1L` 與 `4294967296L`  是不同／相異的物件，但兩者都會傳回相同
+的雜湊值: `1` 。
+
+
+##  不要將雜湊值儲存於外部
+
+> `GetHashCode()` 傳回值應只在同 process 下的同一 application domain  內
+> 使用；不同 .NET Framework 間的 `GetHashCode()`  實作有可能改變
+
+測試方法：
+
+```
+    Console.WriteLine("Hello, world!".GetHashCode());
+```
+
+測試結果：
+
+* .NET 2.0, 3.0, 3.5, 4.0 傳回 307044849
+* .NET 4.5.*, 4.6.* 傳回 904533705
+* .NET Core 1.0.1 傳回 -1650644819
+
+
+##  不要將 `GetHashCode()`  產生的雜湊值用在密碼學(cryptography)用途上
+
+簡單地說，「閃開！讓專業的來！」
+
+* https://msdn.microsoft.com/en-us/library/system.security.cryptography.hashalgorithm.aspx
+* https://msdn.microsoft.com/en-us/library/system.security.cryptography.keyedhashalgorithm.aspx
+
+
+##  （只要物件本身沒改變） `GetHashCode()`  應該要有一致性
+
+只要物件本身沒有足以影響 `Equals()` 結果的變化，那 `GetHashCode()`  產生
+的雜湊也就不應變化。（但這只限於同一 process  下同一 application domain
+）。
+
+尤其是當此物件被存放在雜湊表這類「重度依賴雜湊值以確保其運作正確性」的資
+料結構中時，若 `GetHashCode()`  無法傳回一致的雜湊值，可以想見這會造成各
+種混亂。
+
+
+##  `GetHashCode()` 的計算需求要少、要快
+
+`GetHashCode()` 本來的目的就是協助、加快比較物件之間的相等性；如果
+`GetHashCode()` 要花大量時間、資源運算，那反而本末倒置了。
+
+
+##  `GetHashCode()` 不應丟出例外(exception)
+
+官方原文：
+
+> The GetHashCode method should not throw exceptions.
+
+官方機器翻譯：
+
+> GetHashCode 方法應該擲回例外狀況。
+
+`ლ(ಠ益ಠლ)`
+
+
+##  `GetHashCode()` 產生的雜湊值應要平均分佈
+
+愈能平均分佈，通常愈能避免碰撞。
+
+同時，要考量到輸入資料的性質； Eric Lippert 有提到個案例：
+「[美國郵遞區號][16]」，通通都是五個數字字元；而他當時寫的雜湊演算法無法
+有效地就這樣的資料產生平均分佈的雜湊值（也就是產生了大量的碰撞問題），最
+後嚴重拖累系統效能。
+
+另外一點是安全上的考量；如果雜湊值演算法中有來自使用者的輸入資料，那麼在
+理論上就有可能讓惡意使用者有機可趁，想辦法產生大量的碰撞，拖累你的系統效
+能。
+
+[16]: https://simple.wikipedia.org/wiki/ZIP_code
