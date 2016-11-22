@@ -276,7 +276,7 @@ stream, reader, writer  以達成目的。易言之，就是在實務上作到
 
 
 
-# `GetHashCode()` 深入探索
+# `GetHashCode()` 守則(guideline)與法則(rule)
 
 基本上，[MSDN `GetHashCode()`  官方文件][1] 已提供了相當的資訊，但其機器
 翻譯版本實在慘不忍睹，甚至有錯…… `orz`  是故，以下摘要釋譯之。同時，
@@ -342,13 +342,13 @@ stream, reader, writer  以達成目的。易言之，就是在實務上作到
 種混亂。
 
 
-##  `GetHashCode()` 的計算需求要少、要快
+## `GetHashCode()`  的計算需求要少、要快
 
 `GetHashCode()` 本來的目的就是協助、加快比較物件之間的相等性；如果
 `GetHashCode()` 要花大量時間、資源運算，那反而本末倒置了。
 
 
-##  `GetHashCode()` 不應丟出例外(exception)
+## `GetHashCode()`  不應丟出例外(exception)
 
 官方原文：
 
@@ -361,7 +361,7 @@ stream, reader, writer  以達成目的。易言之，就是在實務上作到
 `ლ(ಠ益ಠლ)`
 
 
-##  `GetHashCode()` 產生的雜湊值應要平均分佈
+## `GetHashCode()`  產生的雜湊值應要平均分佈
 
 愈能平均分佈，通常愈能避免碰撞。
 
@@ -375,3 +375,67 @@ stream, reader, writer  以達成目的。易言之，就是在實務上作到
 能。
 
 [16]: https://simple.wikipedia.org/wiki/ZIP_code
+
+
+
+# 探索 `GetHashCode()` 原始碼
+
+這個章節點出一些內建的 `GetHashCode()`  實作，作為參考。
+
+## `System.Object`
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/Object.cs#L83-L95
+
+```
+    // GetHashCode is intended to serve as a hash function for this object.
+    // Based on the contents of the object, the hash function will return a suitable
+    // value with a relatively random distribution over the various inputs.
+    //
+    // The default implementation returns the sync block index for this instance.
+    // Calling it on the same object multiple times will return the same value, so
+    // it will technically meet the needs of a hash function, but it's less than ideal.
+    // Objects (& especially value classes) should override this method.
+    // 
+    public virtual int GetHashCode()
+    {
+        return RuntimeHelpers.GetHashCode(this);
+    }
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/mscorlib/src/System/Runtime/CompilerServices/RuntimeHelpers.cs#L169-L171
+
+```
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        [MethodImplAttribute(MethodImplOptions.InternalCall)]
+        public static extern int GetHashCode(Object o);
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/vm/ecalllist.h#L2354
+
+```
+FCClassElement("RuntimeHelpers", "System.Runtime.CompilerServices", gCompilerFuncs)
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/vm/ecalllist.h#L1855
+
+```
+    FCFuncElement("GetHashCode", ObjectNative::GetHashCode)
+```
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/classlibnative/bcltype/objectnative.cpp
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/classlibnative/bcltype/objectnative.cpp#L101-L148
+
+```
+    static FCDECL1(INT32, GetHashCode, Object* vThisRef);
+```
+
+最後來到
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/vm/object.h#L472
+
+https://github.com/dotnet/coreclr/blob/b78b71f220ccb28eb6a5f9ea903536bdb6cd3f3d/src/vm/object.cpp#L75-L155
+
+```
+    INT32 GetHashCodeEx();
+```
