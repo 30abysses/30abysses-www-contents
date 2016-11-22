@@ -182,6 +182,7 @@
 [12]: https://zh.wikipedia.org/zh-tw/%E7%A2%B0%E6%92%9E_(%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8)
 [13]: https://en.wikipedia.org/wiki/Collision_(computer_science)
 
+
 ### 超過 42.9 億種獨特狀態的物件真的存在嗎？
 
 `long`, 64  位元的數字，可以表示大約 18.4 艾種狀態；一艾是 10 的 18 次方
@@ -190,8 +191,85 @@
 參考資料與官方機器翻譯：
 
 * `int`
-  * https://msdn.microsoft.com/zh-tw/library/5kzh1b5w.aspx
   * https://msdn.microsoft.com/en-us/library/5kzh1b5w.aspx
+  * https://msdn.microsoft.com/zh-tw/library/5kzh1b5w.aspx
 * `long`
   * https://msdn.microsoft.com/en-us/library/ctetwysk.aspx
   * https://msdn.microsoft.com/zh-tw/library/ctetwysk.aspx
+
+
+
+# [最古の四人][3]， `GetHashCode()`
+
+_le_ **Eric Lippert** 在他的文章
+"[Guidelines and rules for GetHashCode][7]" 中提出了很有趣的問題：
+
+> Why do we have this method on Object in the first place?
+>
+> 究竟為什麼這個方法(`GetHashCode()`)是宣告在 `Object` 上？
+
+Eric Lippert  檢視其他宣告在 [`System.Object`][4] 上的方法：
+
+> It makes perfect sense that every object in the type system should
+> provide a GetType method; data’s ability to describe itself is a key
+> feature of the CLR type system. And it makes sense that every object
+> should have a ToString, so that it is able to print out a
+> representation of itself as a string, for debugging purposes. It seems
+> plausible that objects should be able to compare themselves to other
+> objects for equality. But why should it be the case that every object
+> should be able to hash itself for insertion into a hash table? Seems
+> like an odd thing to require every object to be able to do.
+
+摘要釋譯如下：
+
+* `GetType()`:  「資料『自我描述』的能力」是 CLR  類別系統的關鍵特點之一
+* `ToString()`: 為了除錯，提供以「字串」印出自己的能力
+* `Equals()`: 感覺上物件應要能與其它物件比較「相等性」
+* `GetHashCode()`: **但是** ，為什麼強制要求所有的物件都要能計算雜湊值？
+
+Eric Lippert  的感想：
+
+> I think if we were redesigning the type system from scratch today,
+> hashing might be done differently, perhaps with an IHashable
+> interface. But when the CLR type system was designed there were no
+> generic types and therefore a general-purpose hash table needed to be
+> able to store any object.
+
+摘要釋譯如下：
+
+> 我想，如果我們今天從頭重新設計類別系統，大概會用不同方法來實作雜湊；或
+> 許會用個 `IHashable`  介面。但是，當初設計 CLR  類別系統時尚無泛型類別
+> ，是故一個通用的雜湊表需要能儲存任何物件。
+
+我對 Eric Lippert 這兩段文字的解讀是：類似 [`System.IComparable`][14] ，
+**或許** `GetHashCode()` 應該屬於像這樣的一個介面
+
+```
+    interface IHashable
+    {
+        int GetHashCode();
+    }
+```
+**或許**  那樣作會比較乾淨(clean) 與優雅(elegant) 。
+
+[14]: https://msdn.microsoft.com/en-us/library/system.icomparable.aspx
+
+然而，就我自己對 C# / .NET  的感覺是：
+
+> 我覺得把 `GetHashCode()`  宣告在 `System.Object`  上，且提供了一個在通
+> 常情形下堪用的預設實作，是在理論與實務上取得了 **適當的平衡** 。
+
+所謂「理論與實務上的適當的平衡」的實例之一，就是「讀寫檔案」。
+
+在我印像中的 Java,  要讀寫檔案就得要把一堆有的沒的五四三 stream, reader,
+writer 組合起來；但在 .NET / C#, 讀寫(小)檔案時， [`System.IO.File`][15]
+已經把最常見的動作通通包裝好，並且後來更進一步加入類似 streaming  的支援
+；但若想更精確地控制讀寫檔案的緩衝(buffer)等行為，還是可以回頭去組裝
+stream, reader, writer  以達成目的。易言之，就是在實務上作到
+
+* 讓常用的功能「方便(convenient)」。
+* 讓複雜的動作「可能(possible)」。
+
+而不是過度偏重理論上的乾淨與優雅。
+
+[15]: https://msdn.microsoft.com/en-us/library/system.io.file.aspx
