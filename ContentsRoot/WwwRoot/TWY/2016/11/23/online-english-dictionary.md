@@ -8,8 +8,14 @@
 * 字典：推薦 [Google 字典][1] ；快、版面乾淨、查俚語通常會自動找出
   [Urban Dictionary][7] 上的資料，很方便。
 * 詞典：推薦 [Dictionary.com][3]  ；照字義把相似字、相反字整理得很清楚。
-* 例句：[牛津字典][5] 或 [劍橋字典][6]
+* 例句：推薦 [Google 翻譯][2]
 * 俚語：推薦 [Urban Dictionary][7]  ；沒有最狂，只有更狂。
+* 英語語言知識：推薦 [牛津字典][5]
+
+備註：
+
+* wiktionary.org  在質、量上落後至少一個數量級，不列入評比。
+* wikipedia.org 上也有相當多的英語語言知識。
 
 
 
@@ -46,7 +52,7 @@
 
 
 ---
-##  Google  翻譯
+##  Google 翻譯
 
 網址： [https://translate.google.com/][2]
 
