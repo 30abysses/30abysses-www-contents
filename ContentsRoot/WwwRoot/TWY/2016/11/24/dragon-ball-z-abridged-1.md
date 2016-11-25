@@ -3,7 +3,8 @@
 
 # Dragon Ball Z Abridged 1  解說
 
-網址： [https://www.youtube.com/watch?v=2nYozPLpJRE][1]
+* 網址： [https://www.youtube.com/watch?v=2nYozPLpJRE][1]
+* 長度： 8m41s
 
 [1]: https://www.youtube.com/watch?v=2nYozPLpJRE
 
@@ -20,8 +21,8 @@
 意指「一小塊／一小片（某種東西）」，例如「一小塊布」；是故電腦軟體的小規
 模修正程式 patch  就被翻譯成「補丁」。
 
-在此指「一小片（園藝用）土地」； my marijuana patch 可解作「我的大麻園
-／田」。
+在此指「一小片（園藝用）土地」； my marijuana patch 可解作「我的大麻園／
+田」。
 
 更大面積的（田）地，例如「稻田」，則使用 field  這個字， rice field
 
@@ -36,7 +37,7 @@
 ---
 ##  Holy Crap
 
-驚嘆語，類似「我的天啊！」
+語氣偏中性的驚嘆語，類似「我的天啊！」
 
 
 ---
@@ -54,7 +55,7 @@ dead planet ； dead 解作「毫無生氣」。
 ---
 ##  what the crap?
 
-驚嘆：搞什麼鬼!?
+懊惱語氣：搞什麼鬼!?
 
 
 ---
@@ -86,7 +87,7 @@ screw something up  搞砸某事。
 
 形容詞，勁爆
 
-kick someone's ass  則是「痛扁某人一頓」。
+kick someone's ass  則是「痛扁／電某人一頓」。
 
 
 ---
@@ -94,20 +95,20 @@ kick someone's ass  則是「痛扁某人一頓」。
 
 damn it
 
-語助詞：媽的／幹
+語助詞，類似「媽的！／幹！」
 
 
 ---
 ##  MySpace
 
-類似 臉書 的東西。
+類似臉書的東西。
 
 
 ---
 ##  Tom
 
 Tom Anderson  曾擔任 MySpace  總裁； MySpace  系統會自動把他加入所有
-MySpace 新使用者的朋友名單。
+MySpace 新使用者的朋友名單。在此暗指 Piccolo  沒朋友。
 
 
 ---
@@ -120,22 +121,20 @@ MySpace 新使用者的朋友名單。
 ##  Double Sun-
 
 Double Sunday ダブルサンデー， Raditz 的招式之一，可參考
-
 http://dragonball.wikia.com/wiki/Double_Sunday
 
 
 ---
 ##  Keep your eye on the Bir-
 
-Keep your eye on the Birdie ，也是原作的橋段，可參考
-
+Keep your eye on the Birdie ，也是 Raditz 的招式之一，可參考
 http://dragonball.wikia.com/wiki/Begone!
 
 
 ---
 ##  screw it
 
-算了（放棄）。
+挫折感、放棄語氣：算了。
 
 
 ---
@@ -165,15 +164,15 @@ out of character  不像某人(會作的事)
 ---
 ##  I can't help but notice ...
 
-片語：我無法控制我自己不去注意到……
+片語：我不自禁地注意到……
 
-是一種「客氣」的語氣，例如你看到別人臉上沾到東西，就可以用同一句型。
+客氣語氣，例如你看到別人臉上沾到東西，就可以用同一句型。
 
 
 ---
 ##  bow chicka wow wow
 
-模仿舊時代成人色情片配樂, 引伸為性行為。
+模仿舊時代成人色情片配樂，引伸為性行為。
 
 
 ---
@@ -193,16 +192,18 @@ inside
 
 son of a bitch  字面上翻譯是「婊子的兒子」。
 
-bitch 是髒話，是故口語時會說 son of a b ，而 b 只發很輕的子音。
+bitch 是髒話，通常口語時會說 son of a b ，而 b 只發很輕的子音。
 
 這句話不見得就是罵一個特定的人「婊子養的」；視語氣，可能就只是很驚訝的說
-「幹！／靠！」。
+「幹！／靠！你這傢伙！」。
 
+另一個類似的是 son of a gun ，通常比較正面，例如「幹！／靠！你這傢伙！（
+幹得好！）」
 
 ---
 ##  for God's sakes
 
-（帶挫折感的／絕望的語氣）「看在老天的份上」
+帶挫折感的／絕望的語氣：「看在老天的份上」
 
 
 ---
@@ -214,13 +215,13 @@ bitch 是髒話，是故口語時會說 son of a b ，而 b 只發很輕的子�
 ---
 ##  owned
 
-慘敗／被痛電
+慘敗／被痛電；在網路上也寫作 pwned
 
 
 ---
 ##  sorta
 
-sort of 有點，與 kind of  同義。
+sort of ；「有點」，與 kind of  同義。
 
 
 ---
