@@ -6,7 +6,7 @@
 這裡自 .NET Core 1.1.0  摘錄一些 `GetHashCode()`  實作作為參考。
 
 
-##  `mscorlib`  中有哪些類別(class) 有覆寫(override) `GetHashCode()`  ？
+## `mscorlib` 中有哪些類別(class) 有覆寫(override) `GetHashCode()`  ？
 
 [用以下條件對在 Github.com 上對 `dotnet/coreclr` 蒐尋][1] 的話，可以找到
 約 100個例子；在此僅挑選幾個原始(primitive) 資料類別。
@@ -664,7 +664,7 @@ FCIMPL1(INT32, ValueTypeHelper::GetHashCode, Object* objUNSAFE)
     {
         // If the typeID has yet to be generated, fall back to GetTypeID
         // This only needs to be done once per MethodTable
-        HELPER_METHOD_FRAME_BEGIN_RET_1(obj);        
+        HELPER_METHOD_FRAME_BEGIN_RET_1(obj);
         typeID = pMT->GetTypeID();
         HELPER_METHOD_FRAME_END();
     }
@@ -679,12 +679,122 @@ FCIMPL1(INT32, ValueTypeHelper::GetHashCode, Object* objUNSAFE)
     }
     else
     {
-        HELPER_METHOD_FRAME_BEGIN_RET_1(obj);        
+        HELPER_METHOD_FRAME_BEGIN_RET_1(obj);
         hashCode ^= RegularGetValueTypeHashCode(pMT, obj->UnBox());
         HELPER_METHOD_FRAME_END();
     }
-    
+
     return hashCode;
 }
 FCIMPLEND
+```
+
+
+---
+## System.Enum
+
+[`/mscorlib/src/System/Enum.cs#L811-L854`][34]
+
+[34]: https://github.com/dotnet/coreclr/blob/release/1.1.0/src/mscorlib/src/System/Enum.cs#L811-L854
+
+```
+        [System.Security.SecuritySafeCritical]
+        public override unsafe int GetHashCode()
+        {
+            // Avoid boxing by inlining GetValue()
+            // return GetValue().GetHashCode();
+
+            fixed (void* pValue = &JitHelpers.GetPinningHelper(this).m_data)
+            {
+                switch (InternalGetCorElementType())
+                {
+                    case CorElementType.I1:
+                        return (*(sbyte*)pValue).GetHashCode();
+                    case CorElementType.U1:
+                        return (*(byte*)pValue).GetHashCode();
+                    case CorElementType.Boolean:
+                        return (*(bool*)pValue).GetHashCode();
+                    case CorElementType.I2:
+                        return (*(short*)pValue).GetHashCode();
+                    case CorElementType.U2:
+                        return (*(ushort*)pValue).GetHashCode();
+                    case CorElementType.Char:
+                        return (*(char*)pValue).GetHashCode();
+                    case CorElementType.I4:
+                        return (*(int*)pValue).GetHashCode();
+                    case CorElementType.U4:
+                        return (*(uint*)pValue).GetHashCode();
+                    case CorElementType.R4:
+                        return (*(float*)pValue).GetHashCode();
+                    case CorElementType.I8:
+                        return (*(long*)pValue).GetHashCode();
+                    case CorElementType.U8:
+                        return (*(ulong*)pValue).GetHashCode();
+                    case CorElementType.R8:
+                        return (*(double*)pValue).GetHashCode();
+                    case CorElementType.I:
+                        return (*(IntPtr*)pValue).GetHashCode();
+                    case CorElementType.U:
+                        return (*(UIntPtr*)pValue).GetHashCode();
+                    default:
+                        Contract.Assert(false, "Invalid primitive type");
+                        return 0;
+                }
+            }
+        }
+```
+
+
+---
+## System.IntPtr
+
+[`/mscorlib/src/System/IntPtr.cs#L114-L126`][35]
+
+[35]: https://github.com/dotnet/coreclr/blob/release/1.1.0/src/mscorlib/src/System/IntPtr.cs#L114-L126
+
+```
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        public unsafe override int GetHashCode() {
+#if FEATURE_CORECLR
+#if BIT64
+            long l = (long)m_value;
+            return (unchecked((int)l) ^ (int)(l >> 32));
+#else // !BIT64 (32)
+            return unchecked((int)m_value);
+#endif
+#else
+            return unchecked((int)((long)m_value));
+#endif
+        }
+```
+
+
+---
+## System.DateTime
+
+[`/mscorlib/src/System/DateTime.cs#L822-L827`][36]
+
+[36]: https://github.com/dotnet/coreclr/blob/release/1.1.0/src/mscorlib/src/System/DateTime.cs#L822-L827
+
+```
+        // Returns the hash code for this DateTime.
+        //
+        public override int GetHashCode() {
+            Int64 ticks = InternalTicks;
+            return unchecked((int)ticks) ^ (int)(ticks >> 32);
+        }
+```
+
+
+---
+## System.TimeSpan
+
+[`/mscorlib/src/System/TimeSpan.cs#L215-L217`][37]
+
+[37]: https://github.com/dotnet/coreclr/blob/release/1.1.0/src/mscorlib/src/System/TimeSpan.cs#L215-L217
+
+```
+        public override int GetHashCode() {
+            return (int)_ticks ^ (int)(_ticks >> 32);
+        }
 ```
