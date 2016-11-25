@@ -5,6 +5,7 @@
 
 * 網址： [https://www.youtube.com/watch?v=2nYozPLpJRE][1]
 * 長度： 8m41s
+* YouTube 內建字幕。
 
 [1]: https://www.youtube.com/watch?v=2nYozPLpJRE
 
@@ -16,7 +17,7 @@
 
 
 ---
-##  patch
+##  my marijuana patch
 
 意指「一小塊／一小片（某種東西）」，例如「一小塊布」；是故電腦軟體的小規
 模修正程式 patch  就被翻譯成「補丁」。
@@ -37,13 +38,28 @@
 ---
 ##  Holy Crap
 
-語氣偏中性的驚嘆語，類似「我的天啊！」
+語氣中性的驚嘆語，類似「我的天啊！」
+
+
+---
+##  Er
+
+類似中文語助詞「呃」
 
 
 ---
 ##  Sonic the Hedgeh-
 
 Sonic the Hedgehog, 音速小子（影射 Raditz 的髮型）
+
+
+---
+##  HOLY SH*T
+
+語氣中性的驚嘆語，類似「我的天啊！」
+
+有時會把 shit 的 i  以及 fuck 的 u  換成 *, 變成 sh*t, f*ck 來「技術性迴
+避」髒字。
 
 
 ---
@@ -65,9 +81,21 @@ screw something up  搞砸某事。
 
 
 ---
+##  goddammit
+
+God damn it ，「天殺的！」
+
+
+---
 ##  Turles
 
 ターレス，也是一個賽亞人
+
+
+---
+##  Aw
+
+看到可愛、溫馨的人事物時發出的讚嘆聲，但在此處是諷刺該農夫不自量力。
 
 
 ---
@@ -80,6 +108,15 @@ screw something up  搞砸某事。
 ##  Appule
 
 アプール，フリーザ手下雜魚之一。
+
+
+---
+##  Good old wasteland
+
+Good old something  用來形容讓人感到習以為常、安心、舒適的（傳統）人事物
+
+另外，相較於上面提過的 patch, field,  更大的土地，就會用 land 這個字，例
+如這裡 wasteland  這個字。
 
 
 ---
@@ -216,6 +253,16 @@ bitch 是髒話，通常口語時會說 son of a b ，而 b 只發很輕的子�
 ##  owned
 
 慘敗／被痛電；在網路上也寫作 pwned
+
+
+---
+##  The Dragon's what?
+
+balls 可以指睪丸，語意接近中文的「有種／帶種」的「種」。
+
+當 Goku 說出 dragon balls 時，指的是「龍珠」；但在 Raditz 聽來就很奇怪（
+龍睪丸!?），所以 Raditz 會反問 "The Dragon's what?" 可解作「（你剛說）龍
+的什麼東西？」
 
 
 ---
