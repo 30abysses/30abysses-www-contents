@@ -1,7 +1,7 @@
-> http://www.30abysses.com/TWY/2016/11/21/c_sharp-gethashcode-source-code.md
+﻿> http://www.30abysses.com/TWY/2016/11/21/c_sharp-gethashcode-source-code.md
 > by TW Yang <twy@30abysses.com> 2016-11-21 CC-BY-4.0
 
-# `GetHashCode()` 原始碼
+# 追蹤 `GetHashCode()`  原始碼
 
 這裡自 .NET Core 1.1.0  摘錄一些 `GetHashCode()`  實作作為參考。
 
@@ -20,6 +20,7 @@
 [1]: https://github.com/dotnet/coreclr/search?utf8=%E2%9C%93&q=%22public+override+int+GetHashCode%22+extension%3Acs+path%3A%2Fsrc%2Fmscorlib%2Fsrc%2FSystem
 
 
+---
 ## `System.Object`
 
 先從 [`/mscorlib/src/System/Object.cs#L83-L95`][2]  追起。
