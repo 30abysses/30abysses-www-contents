@@ -3,7 +3,7 @@
 
 # **淺談**  資訊安全
 
-一位網友對《[C# System.Valuetype.GetHashCode() 潛在效能、安全問題]》[1]
+一位網友對《[C# System.Valuetype.GetHashCode() 潛在效能、安全問題][1]》
 提出了個問題：
 
 > james732 @ptt.cc
@@ -98,5 +98,39 @@
 那麼，一個聰明的攻擊者仍有可能想通「一樣是『找不到 _/path/file_ 』的錯誤
 ，但執行速度仍有（微妙的）差異，可以判斷哪些檔案是『真的不存在』，哪些檔
 案是『存在，但我沒有權限閱讀』。」
+
+
+---
+##  實際上的例子
+
+之前 Bandai Namco 公開 [Summer Lesson][5] 時，有 *無聊人士* 去簡單地探測
+了一下其官方網站，發現它雖然把目錄列表(directory listing) 功能關掉了，但
+從其首頁上 Hikari 人物圖可以很明顯地看出命名規則：
+
+> http://summer-lesson.bn-ent.net/images/chara/hikari/img_hikari.png
+
+![Hikari][6]
+
+[5]: http://summer-lesson.bn-ent.net/
+[6]: http://summer-lesson.bn-ent.net/images/chara/hikari/img_hikari.png
+
+該 *無聊人士* 就寫了個簡單的腳本(script)用「2012  日本最常見 50 個女性名
+字」去踹官方主機，看看能不能碰巧挖出當時未公開的資料。
+
+例如：
+
+* 已知
+  `GET http://summer-lesson.bn-ent.net/images/chara/hikari/img_hikari.png`
+  傳回 `HTTP 200`
+* 已知
+  `GET http://summer-lesson.bn-ent.net/images/chara/akane/img_akane.png`
+  傳回 `HTTP 404`
+
+**如果**
+`GET http://summer-lesson.bn-ent.net/images/chara/kasumi/img_kasumi.png`
+傳回 `HTTP 403` ，那麼，就算讀不到 `img_kasumi.png` 的內容，攻擊者也知道
+了 `kasumi` 的存在。
+
+雖然最後沒挖出任何東西，但世界上就是有這類 *無聊人士* 愛玩這種解謎遊戲。
 
 
