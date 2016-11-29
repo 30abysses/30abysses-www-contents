@@ -20,3 +20,5 @@
 [2]: https://en.wikipedia.org/wiki/Information_security
 [3]: https://en.wikipedia.org/wiki/Threat_model
 [4]: https://en.wikipedia.org/wiki/Vector_(malware)
+
+以下將討論一個理論上的例子，與一個實際上的例子。
