@@ -82,3 +82,19 @@ indie 的話參與度比較高，但相對地風險較高、待遇較差。
 [7]: https://www.reddit.com/r/gamedev/
 [8]: http://www.gamasutra.com/
 [9]: https://forums.tigsource.com/
+
+
+
+# 找實習職缺的管道
+
+可以試著從自己喜好的遊戲的製作公司開始。
+
+[Game Developers Conference (GDC)][10]  是個與遊戲公司員工見面、建立人脈
+的好機會。
+
+[10]: https://en.wikipedia.org/wiki/Game_Developers_Conference
+
+各所大學舉辦的職業展覽會(career fair) 也是好機會。
+
+若有機會與遊戲公司員工見面，切忌「遞了履歷表就走人」，試著問問業界情形、
+談談自己專案、聊聊遊戲，留下印像。
