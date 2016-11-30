@@ -11,18 +11,17 @@
 經驗的業界人士作答；整體來說是偏向軟體科技領域。
 
 
-##  特別感謝
+##  Credits
 
-* 鄉民 ninja5566 @ptt.cc  提問，釣出這些答案。
+* 鄉民 ninja5566 @ptt.cc  提問，釣出這串討論。
+* 鄉民 cjcat2266 @ptt.cc
+  * Ming-Lun "Allen" Chou
+  * http://allenchou.net/
+* Sean
 * 匿名人士
-
-```
-
-    此段特意留白
-
-    待參與人士 preview/review 此草稿、決定具名與否之後，再補上
-
-```
+* 鄉民 AmosYang @ptt.cc
+  * TW Yang
+  * http://www.30abysses.com/
 
 
 
