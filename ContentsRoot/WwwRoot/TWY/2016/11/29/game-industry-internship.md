@@ -61,3 +61,19 @@
 "[Perfect is the enemy of good.][4]"
 
 [4]: https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good
+
+
+
+# 遊戲開發討論區
+
+* [gamedev.net][5]
+* [gamedev.stackexchange.com][6]
+* [reddit.com/r/gamedev][7]
+* [gamasutra.com][8]
+* [forums.tigsource.com][9]
+
+[5]: http://www.gamedev.net/
+[6]: http://gamedev.stackexchange.com/
+[7]: https://www.reddit.com/r/gamedev/
+[8]: http://www.gamasutra.com/
+[9]: https://forums.tigsource.com/
