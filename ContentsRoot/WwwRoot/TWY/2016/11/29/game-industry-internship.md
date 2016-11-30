@@ -129,5 +129,9 @@ indie 的話參與度比較高，但相對地風險較高、待遇較差。
 
 [12]: https://www.gamedevmap.com/
 
-找引薦(referral)固然是個選項，但通常也只是增加通過第一關履歷表篩選的機會
-，最後還是要靠自己的技術實力與臨場應對能力說服主管(hiring manager)。
+[internships.com/student][14] 蒐尋工具。
+
+[14]: http://www.internships.com/student
+
+請人引薦(referral)固然是個選項，但通常也只是增加通過第一關履歷表篩選的機
+會，最後還是要靠自己的技術實力與臨場應對能力說服主管(hiring manager)。
