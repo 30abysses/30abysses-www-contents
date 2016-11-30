@@ -60,3 +60,16 @@ state 可解作「州」，也可解作「狀態」。移民官問
 
 
 ---
+## A hundred meter bufferfly
+
+race  可解作「種族」，也可解作「賽跑、（速度）競賽」，例如賽車就是
+racing car  。
+
+面試官問「美國最主要的種族為何？」，但受試者誤解為「美國最有優勢的速度競
+賽為何？」，就回答「一百公尺蝶式游泳比賽」，意指蝶式世界紀錄保持者，美國
+泳將 [Michael Phelps][2]  。
+
+[2]: https://en.wikipedia.org/wiki/Michael_Phelps
+
+
+---
