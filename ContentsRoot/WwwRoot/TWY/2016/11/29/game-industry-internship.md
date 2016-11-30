@@ -74,6 +74,20 @@ indie 的話參與度比較高，但相對地風險較高、待遇較差。
 [4]: https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good
 
 
+##  [履歷表參考樣本][13]
+
+格式：
+
+* 重要的放前面；實戰經驗 ＞ 學歷
+  * 工作 ＞ 實習 ＞ 學生團體專案 ～＝ 個人專案
+  * 如果空間不夠，可以不放學歷，因為（對遊戲業來說）學歷沒那麼重要
+* 左右分兩欄，經驗與技能
+* 不要用一個通用版去投所有的職缺，要針對每個職缺作調整
+* 用條列式列出重點；不要在履歷表裡寫自傳
+
+[13]: http://allenchou.net/resume/
+
+
 
 # 遊戲開發討論區
 
@@ -100,7 +114,15 @@ indie 的話參與度比較高，但相對地風險較高、待遇較差。
 
 [10]: https://en.wikipedia.org/wiki/Game_Developers_Conference
 
+[GDC Social Tips][11],  如何在 GDC  建立人脈、留下好印像。
+
+[11]: http://allenchou.net/2015/01/gdc-social-tips/
+
 各所大學舉辦的職業展覽會(career fair) 也是好機會。
 
 若有機會與遊戲公司員工見面，切忌「遞了履歷表就走人」，試著問問業界情形、
 談談自己專案、聊聊遊戲，留下印像。
+
+[gamedevmap.com][12]  遊戲公司／工作室列表。
+
+[12]: https://www.gamedevmap.com/
