@@ -17,7 +17,7 @@
 * 鄉民 cjcat2266 @ptt.cc
   * Ming-Lun "Allen" Chou
   * http://allenchou.net/
-* Sean
+* 鄉民 fallingleaf @ptt.cc
 * 匿名人士
 * 鄉民 AmosYang @ptt.cc
   * TW Yang
