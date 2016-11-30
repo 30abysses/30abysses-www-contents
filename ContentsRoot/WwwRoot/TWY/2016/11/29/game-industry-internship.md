@@ -1,7 +1,7 @@
 ﻿> http://www.30abysses.com/TWY/2016/11/29/game-industry-internship.md
 > by TW Yang <twy@30abysses.com> 2016-11-29 CC-BY-4.0
 
-# 淺談北美遊戲產業實習
+# 鄉民閒聊北美遊戲產業實習
 
 這篇文章是把私人聊天討論逐字稿（經參與者同意後）整理成適合閱讀的格式，留
 給後人參考。
@@ -18,7 +18,7 @@
   * Ming-Lun "Allen" Chou
   * http://allenchou.net/
 * 鄉民 fallingleaf @ptt.cc
-* 匿名人士
+* 鄉民 Kpmj @ptt.cc
 * 鄉民 AmosYang @ptt.cc
   * TW Yang
   * http://www.30abysses.com/
