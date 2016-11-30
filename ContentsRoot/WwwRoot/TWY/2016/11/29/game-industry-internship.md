@@ -11,17 +11,20 @@
 在北美有相關業界經驗的網友回答；整體來說是偏向軟體科技領域。
 
 
-##  Credits
+## Credits
 
 * 鄉民 ninja5566 @ptt.cc  提問，釣出這串討論。
 * 鄉民 cjcat2266 @ptt.cc
   * Ming-Lun "Allen" Chou
-  * http://allenchou.net/
+  * [allenchou.net][15]
 * 鄉民 fallingleaf @ptt.cc
 * 鄉民 Kpmj @ptt.cc
 * 鄉民 AmosYang @ptt.cc
   * TW Yang
-  * http://www.30abysses.com/
+  * [30abysses.com][16]
+
+[15]: http://allenchou.net/
+[16]: http://www.30abysses.com/
 
 
 
