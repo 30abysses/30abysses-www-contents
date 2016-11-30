@@ -75,7 +75,7 @@ indie 的話參與度比較高，但相對地風險較高、待遇較差。
 如果是呈交電子版的申請書／履歷表，可以把其中網址、信箱連結作成
 可點擊的(clickable) 。
 
-"[Perfect is the enemy of good.][4]"；就實習職缺來說， Riot 通常十月多就
+["Perfect is the enemy of good."][4]；就實習職缺來說， Riot 通常十月多就
 額滿，易言之，死線(deadline)日期只是截止收件，但有可能早在那之前就額滿，
 能早點申請就早點申請。
 
