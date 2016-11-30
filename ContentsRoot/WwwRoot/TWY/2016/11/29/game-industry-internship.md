@@ -36,8 +36,14 @@
 [1]: https://zh.wikipedia.org/zh-tw/%E6%8F%90%E5%95%8F%E7%9A%84%E6%99%BA%E6%85%A7
 [2]: http://www.catb.org/~esr/faqs/smart-questions.html
 
+有一、兩個專精領域是好的，但就學生來說，最好還是要對所有領域都有最低限度
+的認識。例如，參與討論的一位業界人士在學校裡研究 physics + graphcs, 實習
+時作 gameplay camera, 全職工作則是 AI, gameplay, UI.
+
 遊戲產業只是軟體產業的子集合；把「進入遊戲產業」當目標並沒有問題，但若考
-慮到美國工作身份問題，那就值得思考把目標放寬到「進入軟體產業」。
+慮到美國工作身份問題，那就值得思考把目標放寬到「進入軟體產業」。例如，
+暴雪(Blizzard Entertainment)的 Battle.net 部門雖不直接參與遊戲製作，但負
+責各種支援服務，例如，金流、使用者資料庫、對戰配對系統、等等。
 
 可以思考一下、試試水溫，看想往 AAA  還是 indie  的方向走；想要走 AAA  的
 話可以比較專注一個方向練習，想走 indie  的話可以練 Unity  或其它現成引擎
