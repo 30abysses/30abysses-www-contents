@@ -21,21 +21,43 @@
 ```
 
 
-# 申請書／履歷表
+
+# 大方向
 
 愈早開始申請愈好，能第一學期就開始是最好。寫履歷表(resume)、寫
 求職信(cover letter)、準備專案展示(demo)、遠端（電話）面試、現場面試、等
 等，都不是短時間內可以練起來的；從實戰中記取教訓、吸收經驗是唯一的路。
+
+被拒絕(rejection) 很難受，但不作為(inaction)更糟。覺得「卡住」，不知所從
+時，如果你已盡全力試過
+《[提問的智慧][1]([How To Ask Questions The Smart Way][2])》中的「自助」
+辦法，那就不要遲疑，鼓起勇氣向「你覺得可能知道答案的人」請教。
+
+[1]: https://zh.wikipedia.org/zh-tw/%E6%8F%90%E5%95%8F%E7%9A%84%E6%99%BA%E6%85%A7
+[2]: http://www.catb.org/~esr/faqs/smart-questions.html
+
+遊戲產業只是軟體產業的子集合；把「進入遊戲產業」當目標並沒有問題，但若考
+慮到美國工作身份問題，那就值得思考把目標放寬到「進入軟體產業」。
+
+
+
+# 申請書／履歷表
 
 有能展示(demo)的專案是加分。
 
 專案第一印像：最好能提供大約 1  分鐘的影片，或著截圖(screenshot)；而不是
 只丟個 GitHub 連結（要先能引起觀眾的興趣，才有可能去深入研究你的作品）。
 
+若有影片，最好就放 YouTube  上（不要去土炮一個解決方案出來）。
+
+除非信心十足，無懼[莫非定律][3] ，不然，展示影片(demo reel) 會比
+現場展示(live demo) 來得妥當。
+
+[3]: https://zh.wikipedia.org/zh-tw/%E6%91%A9%E8%8F%B2%E5%AE%9A%E7%90%86
+
 如果是呈交電子版的申請書／履歷表，可以把其中網址、信箱連結作成
 可點擊的(clickable) 。
 
-"[Perfect is the enemy of good.][1]"；
+"[Perfect is the enemy of good.][4]"
 
-[1]: https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good
-
+[4]: https://en.wikipedia.org/wiki/Perfect_is_the_enemy_of_good
