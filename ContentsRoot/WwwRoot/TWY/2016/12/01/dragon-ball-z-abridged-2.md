@@ -44,20 +44,39 @@ whee  是個存在的字， Google 字典指出：
 ---
 ## Actually, that hasn't been explained yet.
 
-Piccolo 的故鄉, Namek, 故事，還沒登場
+關於 Piccolo  母星 Namek  的故事，在這裡還沒登場。
 
 
-Less talky, more fighty.
+---
+## Less talky, more fighty.
 
-非正式 + -y 變形容詞
+英文中許多字的形容詞就是以 -y 字根結尾；在口語中，有時一下想不到該用什麼
+字來形容一件事，就會把一個相近意思的字加上 -y 借來用。
+
+此處 Goku 想說的是「少說話、多戰鬥」；比較正式的說法會是：
+
+> Talk less; fight harder.
+
+而
+
+> Less talky, more fighty.
+
+可解作「少些『說話的樣子』；多些『戰鬥的樣子』」。
 
 
+---
+## high-five / handshake / thumbs up
 
-high-five / handshake / thumbs up
+* high-five 把手高舉，與另一人擊掌
+* handshake 握手
+* thumbs up 比出大姆指
+
+劇本安排 Goku 耍白爛，對剛失去一隻手的 Piccolo  一直說些「用手作出的動作
+」。
 
 
-
-Here goes nothing.
+---
+## Here goes nothing.
 
 
 
