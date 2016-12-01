@@ -34,12 +34,15 @@ time-out  可解作「暫停」；這裡是指美國文化裡教育小孩中一�
 ---
 ## Wheeeeee!
 
+whee  是個存在的字， Google 字典指出：
 
-it's actually a word
+> exclamation
+>
+> used to express delight, excitement, or exhilaration.
 
 
-
-Actually, that hasn't been explained yet.
+---
+## Actually, that hasn't been explained yet.
 
 Piccolo 的故鄉, Namek, 故事，還沒登場
 
