@@ -85,29 +85,36 @@ whee  是個存在的字， Google 字典指出：
 ---
 ## ribs
 
-骨，也是菜
+rib 原意是肋骨，但 ribs 也可解作「烤豬／牛／羊肋骨排」這道菜。
 
 
+---
+## Full Nelson
 
-Full Nelson
+[納爾遜式鎖][3] ，就是星爺在《上海灘賭聖》裡打電話問功夫那招。
 
-https://en.wikipedia.org/wiki/Nelson_hold
-
-納爾遜式鎖, 星爺
-
-
-Special Beam Cannon
-
-英文版，許多招式都在地化，換成讓美國觀眾也能了解的詞，相對於日文
+[3]: https://en.wikipedia.org/wiki/Nelson_hold
 
 
+---
+## Special Beam Cannon
 
-Ricola
+魔貫光殺砲（まかんこうさっぽう）；在英文版裡，人物的戰鬥招式名稱多半都有
+在地化(localization)，讓不懂日文原文的觀眾也能看懂。
 
-https://www.youtube.com/watch?v=Z-1ik3S6Ct4
+
+---
+## Ricola
+
+[Ricola][4] 是源自瑞士的老牌子喉糖。可以看他們的[短篇廣告(0m15s)][5]就知
+道劇本這裡如何惡搞它們。
+
+[4]: https://en.wikipedia.org/wiki/Ricola
+[5]: https://www.youtube.com/watch?v=Z-1ik3S6Ct4
 
 
-hindsight
+---
+## hindsight
 
 後見之明
 
