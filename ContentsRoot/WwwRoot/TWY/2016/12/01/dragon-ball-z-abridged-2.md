@@ -10,23 +10,30 @@
 [1]: https://www.youtube.com/watch?v=aBm_2IUn4MU
 
 
-draft
+---
+## Are you a Yoshi?
 
-Are you a Yoshi?
+Yoshi[Yoshi][2] 中文通常翻譯為「耀西」；任天堂旗下電玩角色，卵生，全身綠
+色（另有藍、紅、黃色種類）；劇中安排 Goku 認為 Yoshi  與 Piccolo  有 87%
+相似。
 
-Yoshi
+[2]: https://en.wikipedia.org/wiki/Yoshi_(video_game)
 
-之前提過 smartass 這個字，在這裡 Goku 的行為比較偏向 troll / trolling (來鬧的 / 耍白爛), 而不是伶牙利齒的 sm smartass
-
-
-
-in the time-out pod
-
-美國文化 punish 的一種方式，用 boredom, 罰站
+之前提過 smartass 這個字，但在這裡 Goku 的行為比較偏向來鬧的／耍白爛，是
+troll / trolling  ，而不是伶牙利齒的 smartass 。
 
 
+---
+## the time-out pod
 
-whee
+time-out  可解作「暫停」；這裡是指美國文化裡教育小孩中一種「懲罰」的手段
+，通常是強制要求孩子「什麼事都不準作」，以「無聊(boredom)」 來抑止小孩的
+脫序行為。
+
+
+---
+## Wheeeeee!
+
 
 it's actually a word
 
