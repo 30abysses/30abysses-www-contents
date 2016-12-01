@@ -62,3 +62,24 @@ Full Nelson
 https://en.wikipedia.org/wiki/Nelson_hold
 
 納爾遜式鎖, 星爺
+
+
+Special Beam Cannon
+
+英文版，許多招式都在地化，換成讓美國觀眾也能了解的詞，相對於日文
+
+
+
+Ricola
+
+https://www.youtube.com/watch?v=Z-1ik3S6Ct4
+
+
+hindsight
+
+後見之明
+
+
+Too soon
+
+拿死去的人或事件開玩笑，但 too soon XD
