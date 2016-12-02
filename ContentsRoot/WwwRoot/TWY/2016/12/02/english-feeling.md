@@ -1,7 +1,7 @@
 ﻿> http://www.30abysses.com/TWY/2016/12/02/english-feeling.md
 > by TW Yang <twy@30abysses.com> 2016-12-02 CC-BY-4.0
 
-# 學英語的心境
+# 英語，心境
 
 有許多文章是用以下這類詞彙描述自己（的心境）：
 
