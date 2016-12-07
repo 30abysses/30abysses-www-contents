@@ -8,3 +8,35 @@
 * YouTube 內建字幕。
 
 [1]: https://www.youtube.com/watch?v=OTuMh7VDaC4
+
+
+---
+## Guy-who's-as-strong-as-a-saibaman-says, "What?"
+
+saibaman
+
+
+---
+## filler
+
+
+---
+## Well, F-
+
+
+---
+## keep his eye on the birdie
+
+
+---
+## spend the night
+
+---
+## against my better judgement
+
+
+---
+## NERD!!!
+
+---
+## plateau
