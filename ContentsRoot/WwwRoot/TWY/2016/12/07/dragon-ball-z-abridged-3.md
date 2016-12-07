@@ -13,7 +13,31 @@
 ---
 ## Guy-who's-as-strong-as-a-saibaman-says, "What?"
 
-saibaman
+saibaman, 栽培マン，是後來的雜魚角色，但因為七龍珠有戰鬥力通膨的傳統，在
+設定上 saibaman 的戰鬥力與 Raditz 相近。
+
+這裡的梗很接近星爺在《九品芝麻官》裡罵「死人妖」，而當劇中角色李公公反問
+：「你說誰？」，星爺就回一句「誰答話我就說誰。」
+
+整個對話還原起來就是：
+
+1. Nappa  試著呼叫  Raditz.
+2. Raditz 因為已經陣亡，所以沒反應。
+3. Nappa  再試了幾次仍無反應，就來惡搞一下 Raditz.
+4. Nappa  故意說「跟裁培人一樣強的人答『有！』」。
+5. Nappa  仍等不到 Raditz 的回應，就判斷 Raditz 大概是陣亡了。
+
+
+### That usually gets to him.
+
+這裡 get  是非正式的用法，解作「激怒／觸動逆鱗／逗」。
+
+如上面對話所述， Nappa  因為 Raditz 沒反應，就故意來一句「跟裁培人一樣強
+的人答『有！』」，然而， Raditz 仍然沒反應， Nappa  就向 Vegeta 說「那（
+句話）通常能逗到／激怒 Raditz （但他仍沒反應），我想他(Raditz)是死了。」
+
+get 這字有許多其他非正式用法，例如， "Anybody can get got." ； "get to"
+也有不同語意（可參考電影《Runaway Jury》），以後有機會再多聊。
 
 
 ---
