@@ -43,6 +43,16 @@ get 這字有許多其他非正式用法，例如， "Anybody can get got." ； 
 ---
 ## filler
 
+filler  直譯就是「填料」；在動畫中則是為了調整劇情進展，有時會加入漫畫作
+品裡沒有的原創劇情。
+
+這裡 Vegeta 說：「我們大概一年內會抵達地球，但實際上要看動劃劇情進展、節
+湊安排。」；玩一個「[打破第四面牆][2]([breaking the fourth wall][3])」的
+梗。
+
+[2]: https://zh.wikipedia.org/zh-tw/%E7%AC%AC%E5%9B%9B%E9%9D%A2%E7%89%86
+[3]: https://en.wikipedia.org/wiki/Fourth_wall
+
 
 ---
 ## Well, F-
