@@ -57,6 +57,10 @@ filler  直譯就是「填料」；在動畫中則是為了調整劇情進展，
 ---
 ## Well, F-
 
+為了政治正確，在輔導級作品中， "fuck" ，也就是「幹！」，通常會像這樣消音
+，只發 "f"  的音；或著，有時會另外配音，用 "Forget you!" 來取代
+"Fuck you!"
+
 
 ---
 ## keep his eye on the birdie
