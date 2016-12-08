@@ -65,16 +65,36 @@ filler  直譯就是「填料」；在動畫中則是為了調整劇情進展，
 ---
 ## keep his eye on the birdie
 
+Keep your eye on the Birdie ，是 Raditz 的招式之一，可參考
+http://dragonball.wikia.com/wiki/Begone!
+
+這裡是呼應 Lord Yemma 之前說「不知道 Raditz 逃走後現在人在哪」。
+
 
 ---
 ## spend the night
 
+客氣的問「今晚是否要住下？」
+
+
 ---
 ## against my better judgement
+
+通常是自嘲或自白語氣「違反我的理智告訴我的正確決定」。
 
 
 ---
 ## NERD!!!
 
+嘲諷語氣「你這個書呆子！」
+
+
 ---
 ## plateau
+
+相較於山(mountain)， Gohan  主張那座岩山比較像是高地(plateau) 。
+
+其他相關的「地型」的字，可以參考
+[https://en.wikipedia.org/wiki/Plateau#See_also][4] 。
+
+[4]: https://en.wikipedia.org/wiki/Plateau#See_also
