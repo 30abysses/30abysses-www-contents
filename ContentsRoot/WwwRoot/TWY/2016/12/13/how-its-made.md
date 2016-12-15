@@ -13,8 +13,8 @@
 
 [1]: https://en.wikipedia.org/wiki/How_It's_Made
 
-在 YouTube  上以 "how it's made"  蒐尋通常可以找到許多影片，但這裡是其正
-式頻道：
+在 YouTube  上以 "how it's made"  蒐尋通常可以找到許多影片；以下是其正式
+頻道：
 
 * YouTube: [https://www.youtube.com/c/HowItsMadeCommunity][2]
 * Facebook: [https://www.facebook.com/howitsmade1][3]
