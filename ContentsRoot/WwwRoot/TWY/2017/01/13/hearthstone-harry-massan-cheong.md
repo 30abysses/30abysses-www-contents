@@ -1,4 +1,4 @@
-﻿> http://www.30abysses.com/TWY/2017/01/13/harry-massan-cheong.md
+﻿> http://www.30abysses.com/TWY/2017/01/13/hearthstone-harry-massan-cheong.md
 > by TW Yang <twy@30abysses.com> 2017-01-13 CC-BY-4.0
 
 # 英語，聽，爐石戰記玩家， Harry "MaSsan" Cheong
