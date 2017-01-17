@@ -125,7 +125,7 @@ XKCD  不只是一般想像中的短篇漫畫，在以下這個清單裡，有�
 
 以視覺化的方式，挑戰讀者想像力的邊界…
 
-* 「高」： [https://www.xkcd.com/482/][19]
+* 「高」： [https://www.xkcd.com/482/][30]
 * 「深」： [https://www.xkcd.com/485/][20]
 * 「重力井」： [https://www.xkcd.com/681/][21]
 * 「錢」： [https://www.xkcd.com/980/][22]
@@ -133,7 +133,7 @@ XKCD  不只是一般想像中的短篇漫畫，在以下這個清單裡，有�
 * 「管」： [https://www.xkcd.com/1649/][24]
 * 「地球溫度時間線」： [https://www.xkcd.com/1732/][25]
 
-[19]: https://www.xkcd.com/482/
+[30]: https://www.xkcd.com/482/
 [20]: https://www.xkcd.com/485/
 [21]: https://www.xkcd.com/681/
 [22]: https://www.xkcd.com/980/
