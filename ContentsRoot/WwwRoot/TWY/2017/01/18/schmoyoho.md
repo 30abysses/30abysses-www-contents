@@ -12,7 +12,8 @@
 [2]: https://www.youtube.com/channel/UCNYrK4tc5i1-eL8TXesH2pg
 
 
-## 歷史之歌
+
+# 歷史之歌(Songs of History)
 
 以[歷史之歌][3] 這個播放清單為例，製作團隊把歐巴馬於
 [「Selma to Montgomery" 遊行」][4]（非裔美國人爭取投票權）五十週年紀念演
@@ -37,4 +38,31 @@
 [5]: https://www.youtube.com/watch?v=KsWzhPevEks
 
 
-#
+
+# Songify the News & Songify This
+
+相對於「歷史之歌」， [Songify the News][6]  與 [SONGIFY THIS][7]  就是偏
+向於搞笑、諷刺的風格；一樣也是用 Auto-Tune  改變政治人物的聲調，再後製成
+唱歌跳舞
+
+* Songify the News: [https://www.youtube.com/playlist?list=PL736C3116AD309B58][6]
+* SONGIFY THIS: [https://www.youtube.com/playlist?list=PL08FD35E184A24E7F][7]
+
+例如：
+
+* "OBAMA MIC DROP: 1999": [https://www.youtube.com/watch?v=NbqtAuT4zbk][8]
+* "Auto-Tune the News #9: Nobel. health care. United Nations.": [https://www.youtube.com/watch?v=LnoD3NUux3M][9]
+* "Legalize Everything - Einstein 2012": [https://www.youtube.com/watch?v=Urx21kpsB40][10]
+
+[6]: https://www.youtube.com/playlist?list=PL736C3116AD309B58
+[7]: https://www.youtube.com/playlist?list=PL08FD35E184A24E7F
+[8]: https://www.youtube.com/watch?v=NbqtAuT4zbk
+[9]: https://www.youtube.com/watch?v=LnoD3NUux3M
+[10]: https://www.youtube.com/watch?v=Urx21kpsB40
+
+
+
+# 總結
+
+美式英語， YouTube  內建字幕，影片多在三至五分鐘，因為是歌唱，所以語速偏
+快，若喜歡搞笑、諷刺政治新聞的話，可以試試看。
