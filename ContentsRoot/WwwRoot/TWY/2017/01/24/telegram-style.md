@@ -85,7 +85,7 @@
 就是省去了後半句話中的 ends ，也就是 [verb phrase ellipsis][7]  的應用；
 若還原成完整的句子，就會是：
 
-> Friendship often ends in love; but love in friendship never ends.
+> Friendship often ends in love; but love never ends in friendship.
 
 [7]: https://en.wikipedia.org/wiki/Verb_phrase_ellipsis
 
@@ -98,3 +98,46 @@
 應用大概就是寫美式履歷表。我認為，對省略語法的概念先有基本的認識即可，
 至少在遇到省略語法的文體時有個概念，待語感養成之後，再多讀多吸收這類進階
 文法的應用範例。
+
+
+
+# 更正啟事
+
+之前將 Charles Caleb Colton 的
+
+> Friendship often ends in love; but love in friendship -- never.
+
+錯誤地還原成
+
+> Friendship often ends in love; but love in friendship never ends.
+>
+> 友誼常常最後變成愛情；但友情中的愛從不停息。
+
+正確的還原應該是：
+
+> Friendship often ends in love; but love never ends in friendship.
+>
+> 友誼常常最後變成愛情；但愛情最後不會變回友情。
+
+##  考證經過
+
+經 [boblu @ ptt.cc 提出疑問][8] ，再查證[原文][9] 後，發現原文與
+wikiquote.org 的版本有微妙的出入：
+
+[8]: https://www.ptt.cc/bbs/Oversea_Job/M.1485260723.A.672.html
+[9]: https://archive.org/details/laconormanythin11coltgoog
+
+[wikiquote.org 的版本][6] ：
+
+> Friendship often ends in love; but love in friendship -- never.
+
+[原文][9] ：
+
+> Friendship often ends in love; but love, in friendship -- never.
+
+也就是在後半句， love 與 in friendship  之間，原文裡有個逗號；是故，正確
+的還原方式應該是
+
+> Friendship often ends in love; but love never ends in friendship.
+
+在此再次感謝 boblu @ ptt.cc 的指教。
