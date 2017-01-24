@@ -50,3 +50,50 @@
 要重申一次，這裡舉的這個簡略例子是單純為了解釋電報寫作風格，實際上在撰寫
 履歷表時，切忌這種流水帳式的語氣，而是要以成果(result)、細節(specifics)
 、實例(example) 為寫作主軸，這個以後會再談。
+
+
+
+# 學習與應用
+
+電報寫作風格在語言學上的正式名稱為 [ellipsis][4]  ，可譯作「省略語法」。
+
+[4]: https://en.wikipedia.org/wiki/Ellipsis_(linguistics)
+
+以下幾個網頁有對省略體更詳盡的說明：
+
+* Ellipsis (linguistics): [https://en.wikipedia.org/wiki/Ellipsis_(linguistics)][4]
+* Headlinese: [https://en.wikipedia.org/wiki/Headlinese][2]
+* "HOW TO WRITE TELEGRAMS PROPERLY": [http://www.telegraph-office.com/pages/telegram.html][5]
+
+[5]: http://www.telegraph-office.com/pages/telegram.html
+
+除了上述的新聞標題、履歷表之外，這種寫作風格適合寫操作手冊、使用方法，尤
+其是瓶罐包裝標籤（非常受限的印刷空間）這類說明時使用。
+
+在維基百科關於省略語法([ellipsis][4]) 的頁面上，有更進一步以實例解釋許多
+看似不符合文法的句子；這類句子在學術、文學英文中較常出現，例如：
+
+> Friendship often ends in love; but love in friendship -- never.
+> 
+> Charles Caleb Colton
+
+（出處： [https://en.wikiquote.org/wiki/Charles_Caleb_Colton][6]  ）
+
+[6]: https://en.wikiquote.org/wiki/Charles_Caleb_Colton
+
+就是省去了後半句話中的 ends ，也就是 [verb phrase ellipsis][7]  的應用；
+若還原成完整的句子，就會是：
+
+> Friendship often ends in love; but love in friendship never ends.
+
+[7]: https://en.wikipedia.org/wiki/Verb_phrase_ellipsis
+
+
+
+# 結論
+
+電報寫作風格／省略語法對ＥＳＬ人士來說，算是較高階、複雜的英語文法（要先
+知道如何寫出正確、完整的句子，才能正確的簡化且不失文字本意）；最直接的
+應用大概就是寫美式履歷表。我認為，對省略語法的概念先有基本的認識即可，
+至少在遇到省略語法的文體時有個概念，待語感養成之後，再多讀多吸收這類進階
+文法的應用範例。
