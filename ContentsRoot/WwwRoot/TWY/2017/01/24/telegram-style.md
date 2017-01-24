@@ -1,11 +1,12 @@
 ﻿> http://www.30abysses.com/TWY/2017/01/24/telegram-style.md
 > by TW Yang <twy@30abysses.com> 2017-01-24 CC-BY-4.0
 
-# 英語，寫，電報寫作風格(telegram style)
+# 英語，寫，電報寫作風格(telegram style)，美式履歷表
 
 因為在電報時代發電報是以字計價，所以就沿生出
-「電報寫作風格([telegram style])」；該寫作風格以保持原文文意（不造成誤會
-）為前提，儘可能地減少字數，就算最後寫出來的句子不完全符合文法也無所謂。
+「電報寫作風格([telegram style][1])」 ；該寫作風格以保持原文文意（不造成
+誤會）為前提，儘可能地減少字數，就算最後寫出來的句子不完全符合文法也
+無所謂。
 
 例如，[萊特兄弟在 1903-12-17 試飛成功後發的電報][3] ：
 
@@ -14,7 +15,7 @@
 > thirty one miles longest 57 seconds inform Press home Christmas .
 > Orevelle Wright
 
-雖然文法上不正確，但仍傳達了訊息。
+雖然文法上不正確，但仍有效傳達了訊息。
 
 這種寫作風格在今日的新聞標題這類空間有限的地方仍十分常見，也稱作
 標題文體([headlinese][2]) 。
@@ -59,7 +60,7 @@
 
 [4]: https://en.wikipedia.org/wiki/Ellipsis_(linguistics)
 
-以下幾個網頁有對省略體更詳盡的說明：
+以下幾個網頁有對省略語法更詳盡的說明：
 
 * Ellipsis (linguistics): [https://en.wikipedia.org/wiki/Ellipsis_(linguistics)][4]
 * Headlinese: [https://en.wikipedia.org/wiki/Headlinese][2]
