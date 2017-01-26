@@ -47,7 +47,8 @@ childish, childlike ；或誤用 problem, question:
 * What is your question?  →  你有問題（疑問）嗎？
 * What is your problem? →  你（腦子）有問題嗎？
 
-另一個例子是 terrific, terrible;  這兩個字的拼法很接近，但意義大不相同：
+另一個例子是 terrific, terrible;  這兩個字的拼法很接近，都是從拉丁文的
+terrere 演化而來，但在今日，這兩個字的意義大不相同：
 
 * terrific  是指了不起、非常好（但在古語中是指「造成恐懼的」）
 * terrible  是指可怕的、壞透了
