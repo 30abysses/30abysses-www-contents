@@ -49,11 +49,13 @@
 所謂三段連續技，即是成果(result)、實例(example)、細節(specifics)。先從一
 實際案例來看（以下所有案例皆有略為修改，以保護當事人隱私）：
 
-> Created Bash scripts and custom Eclipse plugins in Java for automatic code generation
+> Created Bash scripts and custom Eclipse plugins in Java for automatic
+> code generation
 
 這給出了實例與細節，但後繼無力；是故，稍作修改訂正，變成：
 
-> Automated _X%_ _component_ code generation with Bash scripts and custom Eclipse plugins (Java)
+> Automated _X%_ _component_ code generation with Bash scripts and
+> custom Eclipse plugins (Java).
 
 這就是由「成果」起手（ "X%" ）、說明實例（ "automated code generation"
 ），點出價值（由自動化節省人工，而人工就是成本），最後補充細節（
@@ -67,4 +69,25 @@
 * 若能重來，會如何改進這個作法？
 
 易言之，先以連續技作出有效打擊，再掌握節奏，進可攻，退可守，會比原本的
-被動語氣來得有利。
+被動語氣（只丟實例與細節，等待讀者來猜測、推敲你做的事的價值）來得有利（
+因為你的讀者很少會願意花那時間來解讀你的「言外之意」）。
+
+---
+
+另一個案例
+
+> Implemented automation E2E tests with xUnit and Moq from scratch;
+> integrated with CI to send test report.
+
+與該履歷表作者溝通之後，了解到該團隊之前完全沒有自動測試，是故這東西作
+出來後，是從頂頭上司到 CTO  都點讚的大功，是故，重點在那句
+"from scratch"  ；訂正之後拆成三句：
+
+* Reduced average testing efforts per build from _X_ man minutes to _Y_
+  machine minutes.
+* 100% automated CI E2E tests plus reporting, analysis, visualization.
+* Designed and implemented full CI E2E test suite from scratch with
+  xUnit and Moq.
+
+可惜該履歷表作者手上沒有 code coverage, branch coverage 等資料，不然這一
+段的打擊火力可以更強大。
