@@ -86,7 +86,8 @@
 
 * Reduced average testing efforts per build from _X_ man minutes to _Y_
   machine minutes.
-* 100% automated CI E2E tests plus reporting, analysis, visualization.
+* 100% automated CI E2E tests plus test result reporting, analysis,
+  visualization.
 * Designed and implemented full CI E2E test suite from scratch with
   xUnit and Moq.
 
@@ -107,7 +108,7 @@
 
 對應到成果、實例、細節就是：
 
-> 浮空（成果）→連擊（實例）→追打（細節）
+> 成果（浮空） → 實例（連擊） → 細節（追打）
 
 「成果」代表你創造出來的價值，同時展現你作事的態度（你如何量化你的成果？
 如何導入最基本的 [Build-Measure-Learn][4] ？）；「成果」不一定要是什麼
@@ -121,7 +122,8 @@
 # 結論
 
 如果是沒有特定目的而寫的履歷表（例如，就放一份在自己網站上，給獵頭人參考
-用的），那稍微偏向流水帳的語氣是無妨（學歷、證照、技能）。如果是為了特定
-職位而寫的，就要以 sales pitch  的心態去寫，也就是這整篇文章一直強調的
-「成果、價值」，而不是糾結於「實例、細節」，那就像是把 iPhone 如廢五金
-秤斤論兩賣，本末倒置。
+用的），那稍微偏向流水帳的語氣是無妨（工作經歷、學歷、證照、技能）。如果
+是為了特定職位而寫的，就要以 sales pitch  的心態去寫，也就是這整篇文章
+一直強調的「成果、價值」，而不是糾結於「實例、細節」，那就像是把 iPhone
+如廢五金秤斤論兩賣，本末倒置。
+
