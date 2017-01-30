@@ -236,3 +236,65 @@ ethical, professional, legal  的前提下，我不在乎求職者如何表現�
 又，求職用的 resume 與 cover letter 的目的本來就是 self-promotion ；
 也就是完完全全 100.00%  在「老王賣瓜」；在守誠信的前提下，「自誇」就完全
 是這類文案要達成的目的（不然何需花那麼多精神去寫？），是故，不需要擔心。
+
+---
+
+> FRAXIS @ptt.cc
+>
+> 那再請問一下 在 resume 上面條列 technical skill 有幫助嗎？  還是把這些
+> 技術包裝在 experience 裡面比較好？
+
+這取決於你打算如何寫這齣戲的劇本來訴說你的故事。易言之，如果你指的
+「條列」是指像食品成分表一樣的條列，那我不會如此去條列。與之前討論過的
+summary/objective 類似，我會這麼作：
+
+1.  細讀該職缺的敘述。
+2.  歸納出三至五項該職缺最重視的特點／技能／經驗。
+3.  以兩行左右的文字，描述我如何符合 `(2)`  的條件，並以粗體字標出。
+4.  在 Experience 裡提到 `(2)`  所列出的條件時，也以粗體字標出。
+
+（又，從另一方面來說，除了要標出最重要的重點，我個人會儘量避免使用粗體字
+；把粗體字保留給最重要的七至十個重點，減少視覺噪音。）
+
+例如，假設一個軟體業職缺一整頁的敘述讀下來，最後歸納為：
+
+* 任務：協助團隊打造 _某系統功能Ｘ_
+* 要三年專業經驗
+* 要會 .NET/C#
+* 要會 Git  版本控制
+* 要熟悉敏捷開發
+* 如果熟悉 ASP.NET/JavaScript/HTML/CSS  更好
+
+再假設求職者有以下經驗：
+
+* 作過 _某系統功能Ｙ_ ，與 _Ｘ_ 扯得上邊
+* 有四年經驗
+* 會 C#
+* 會 SVN
+* 有待過跑敏捷開發的團隊
+* 但對 ASP.NET/JavaScript/HTML/CSS  只有基礎知識，實戰經驗少
+
+那我個人會把以下這樣一段話放在履歷表的開頭：
+
+* 4-year .NET/C# mid-level developer seeking opportunity to contribute
+  lessons learned from _Y_ to project _X_; familiar with SVN version
+  control and Agile development; intermediate knowledge in ASP.NET.
+
+上粗體字
+
+* **4-year** **.NET/C#** mid-level developer seeking opportunity to
+  contribute lessons learned from _Y_ to project _X_; familiar with
+  **SVN version control** and **Agile** development; intermediate
+  knowledge in **ASP.NET**.
+
+看，很簡單吧；概念圖片支援：
+
+![Bob Ross][10]
+
+[10]: https://upload.wikimedia.org/wikipedia/en/7/70/Bob_at_Easel.jpg
+
+結論：基本上，如果讀者看完這段仍無興趣的話，那接下來寫什麼大概都沒有用了
+；反之，如果這段能引起讀者的興趣，他接著仔細讀接下來的資料的機會應該會高
+些。這也就是為什麼我主張「切忌一稿多投」；「多投」本身沒有問題，問題在
+「一稿」。除非你個人品牌響亮，不然求職時最好還是針對每個職缺微調優化你的
+履歷表與求職信。而這微調優化的過程，對接下來的面試準備也會有相當的助益。
