@@ -1,4 +1,4 @@
-﻿> http://www.30abysses.com/TWY/2017/02/03/joy-of-painting-bob-ross.md
+﻿> http://www.30abysses.com/TWY/2017/02/03/bob-ross-joy-of-painting.md
 > by TW Yang <twy@30abysses.com> 2017-02-03 CC-BY-4.0
 
 # 英語，聽， Bob Ross, Joy of Painting
