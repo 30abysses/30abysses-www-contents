@@ -27,3 +27,31 @@
 
 [4]: https://zh.wikipedia.org/zh-tw/%E9%98%BF%E6%8B%89%E6%96%AF%E5%8A%A0%E5%B7%9E
 [5]: https://en.wikipedia.org/wiki/Alaska
+
+除了 Bob  的妙手神筆， Joy of Painting  這節目最大的特色，就是其令人心情
+放鬆愉快的氣氛。據維基百科記載，當被訪問關於他的輕鬆愉快繪畫節目風格時，
+Bob 表示：
+
+> "I got a letter from somebody here a while back, and they said, 'Bob,
+> everything in your world seems to be happy.' That's for sure. That's
+> why I paint. It's because I can create the kind of world that I want,
+> and I can make this world as happy as I want it. Shoot, if you want
+> bad stuff, watch the news."
+>
+> 「前陣子我收到過封信，有人說『 Bob, 在你的世界裡，似乎每樣東西都是快樂
+> 的。』那說得對。那就是我畫畫的原因，因為我可以創造我想要的世界，且我可
+> 以想讓這世界多快樂就多快樂。唉，如果你想要壞東西，看新聞節目。
+
+維基百科記載也記載
+
+> He repeatedly stated on the show his belief that everyone had inherent
+> artistic talent and could become an accomplished artist given time,
+> practice, and encouragement, and to this end was often fond of saying,
+> "We don't make mistakes; we just have happy accidents."
+>
+> 他(Bob) 再三在節目裡重覆過，他相信每個人都有藝術天賦，只要有時間、練習
+> 鼓勵，都可以成為藝術家；他很喜歡說「（在藝術創造的過程中），我們不會犯
+> 錯，那些都是美麗的意外」。
+
+既使不為觀摩學習畫技，看著 Bob  在 Joy of Painting  節目裡，輕鬆愉快、從
+容不迫、氣定神閒地從空無一物的畫布開始變出一幅好山好水，也是樂事。
