@@ -25,3 +25,24 @@
 
 
 # 買方的立場
+
+首先，引用 [Kevin Spacey][1] 在 [MasterClass][2]  裡，就「演員試鏡、爭取
+演出角色」這件事給學生的一段話：
+
+> First of all, they are on your side -- on the other side of the table.
+> No matter how, you know, cold, or even to some degree rude they might
+> be, they are on your side for a single reason: they have a problem
+> they have to solve -- they have to cast this damn thing.  They've been
+> sitting in this goddamn room day after day after day, and no one has
+> done it for them yet.  They want you to be good.  They want you to
+> solve their problem because they'd all rather go to lunch and drink
+> wine.
+>
+> 首先，他們是站在你這邊的（雖然他們是坐在桌子的另一邊）。不管他們有多冷
+> 淡、有多粗魯，他們站在你這邊的理由只有一個：「他們有個問題需要被解決，
+> 他們必須為這該死的劇本找到個適合該角色的演員。」他們已經在這個天殺的房
+> 間裡待了一天、一天、又一天，但還是沒有找到適合的演員。他們希望你是個上
+> 好人材，他們希望你來解決這個問題，因為他們全部都寧願去吃午餐，喝一杯。
+
+[1]: https://en.wikipedia.org/wiki/Kevin_Spacey
+[2]: https://www.masterclass.com/classes/kevin-spacey-teaches-acting
