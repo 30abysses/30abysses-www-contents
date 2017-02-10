@@ -18,3 +18,28 @@
 [5]: https://en.wikipedia.org/wiki/Paul_Graham_(computer_programmer)#Graham.27s_hierarchy_of_disagreement
 [6]: https://www.google.com/search?q=%E5%8F%8D%E9%A7%81%E9%87%91%E5%AD%97%E5%A1%94&tbm=isch
 [7]: http://www.paulgraham.com/
+
+
+
+# Paul Graham 的文章(essay)
+
+Paul Graham 的文章收錄於： [http://www.paulgraham.com/articles.html][8]
+；他的文章通常都是中、短文，以直接了當的分析、輔以適當的類比例子來討論一
+個題目。
+
+[8]: http://www.paulgraham.com/articles.html
+
+這些題目通常圍繞著幾個特定主題，例加前面提過的《[How to Disagree][3]》是
+以思想技術操作為主，而西元 2014 年 12 月的《[How You Know][9]》 則是由內
+而外，探討知覺(awareness) 、印像(impression)的本質，以及操作它們的可能性
+（ YCombinator  在西元 2016 年 9  月[訪談 Elon Musk][10]  時，則是談到了
+由外而內，建立「大腦與外界資訊之間的高速新界面」這個題目）。在
+《[The Top Idea in Your Mind][13]》 談到了「捕捉你的思緒、觀察『你自己在
+想什麼』」；這些都是在談「思考」這件事本身，也就是
+[後設認知][11]([metacognition][12]) 的領域。
+
+[9]: http://www.paulgraham.com/know.html
+[10]: https://www.ycombinator.com/future/elon/
+[11]: https://zh.wikipedia.org/zh-tw/%E5%BE%8C%E8%A8%AD%E8%AA%8D%E7%9F%A5
+[12]: https://en.wikipedia.org/wiki/Metacognition
+[13]: http://www.paulgraham.com/top.html
