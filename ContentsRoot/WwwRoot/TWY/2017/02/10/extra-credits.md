@@ -20,8 +20,8 @@ YouTube 頻道（與「遊戲程式設計」不同）。美式英語、語速中
 Extra Credits 影集通常不會深入討論技術細節，而是著重於概念、大方向上。例
 如：
 
-* [MMO Economies - Hyperinflation, Reserve Currencies & You!][4]，描述線
-  上多人遊戲裡的經濟問題：通貨膨漲，以及遊戲設計者採取的制衡措施。
+* [MMO Economies - Hyperinflation, Reserve Currencies & You!][4]  ，描述
+  線上多人遊戲裡的經濟問題：通貨膨漲，以及遊戲設計者採取的制衡措施。
 * [Overwatch and Asymmetric Level Design - What Makes the Maps Fun?][5]
   以 Overwatch  為例，討論「非對稱式」地圖設計與遊戲機制的交互影響。
 * [Video Game Music][6] 論述為什麼有些遊戲音樂讓人永難忘懷。
@@ -39,9 +39,9 @@ Extra Credits 影集通常不會深入討論技術細節，而是著重於概念
 ，例如：
 
 * [Game Addiction][7] ，遊戲成癮
-* [Video Games and Gambling - When Does a Game Cross the Line?][8]，遊戲
-  與賭搏
-* [Free Speech][9]，言論自由
+* [Video Games and Gambling - When Does a Game Cross the Line?][8]  ，遊
+  戲與賭搏
+* [Free Speech][9]  ，言論自由
   * [Facing Controversy - How to Stand Up for Games as a Medium][10]
 
 [7]: https://www.youtube.com/watch?v=Y5RSngCFpsc
@@ -53,8 +53,8 @@ Extra Credits 影集通常不會深入討論技術細節，而是著重於概念
 
 以及對遊戲產業的觀察：
 
-* [Piracy][11]，盜版
-* [Free to Play][12]，Ｆ２Ｐ商業模式（這是一整個播放清單，包含許多主題）
+* [Piracy][11]  ，盜版
+* [Free to Play][12]  ，Ｆ２Ｐ商業模式（這是個播放清單，包含許多主題）
 * [Career Advice][13] ，職業建議（設計師、評論家、工作環境、獨立製作、工
   程師、……；這也是一整個播放清單，從各面層面討論遊戲產業裡的職業生涯）
 
