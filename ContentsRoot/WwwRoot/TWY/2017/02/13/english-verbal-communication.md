@@ -73,7 +73,7 @@
 >
 > 英語是一多元語言；沒有單一國家為其定義所謂標準使用法。
 >
-> [https://en.wikipedia.org/wiki/Pluricentric_language#English][16]
+> [https://en.wikipedia.org/wiki/English_language#Pluricentric_English][15]
 
 > English is a pluricentric language, with differences in pronunciation,
 > vocabulary, spelling, etc., between the United Kingdom, North America,
@@ -85,7 +85,7 @@
 > symmetric case of a pluricentric language, because there is no clear
 > cultural dominance of one variety over others.
 >
-> [https://en.wikipedia.org/wiki/English_language#Pluricentric_English][15]
+> [https://en.wikipedia.org/wiki/Pluricentric_language#English][16]
 
 上段是更詳細的說明英語的多元特性。
 
@@ -182,7 +182,7 @@ terrific, terrible  。
 值得一提的是「玻璃心」這句詞，有興趣可以看看這個 TED  演講，或許可以幫助
 了解「情緒」如何影響我們的思考方式。
 
-* [Why you think you're right — even if you're wrong][24]
+* [為什麼你會認為你是對的 － 儘管你是錯的(Why you think you're right — even if you're wrong)][24]
   （[中文字幕][25]）
 
 [24]: https://www.ted.com/talks/julia_galef_why_you_think_you_re_right_even_if_you_re_wrong
