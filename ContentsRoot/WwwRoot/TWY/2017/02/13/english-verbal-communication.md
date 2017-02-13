@@ -62,3 +62,73 @@
 
 是故，技術上來說，因為有這些 **超過一百萬人口** 在使用的各種英語，所以無
 法主張「唯一標準英語」的存在。
+
+
+### 英語是多元(pluricentric)語言
+
+維基百科在以下兩個頁面更進一步描述 "pluricentric" 語言的特性：
+
+> English is a pluricentric language, which means that no one national
+> authority sets the standard for use of the language.
+>
+> 英語是一多元語言；沒有單一國家為其定義所謂標準使用法。
+>
+> [https://en.wikipedia.org/wiki/Pluricentric_language#English][16]
+
+> English is a pluricentric language,[11] with differences in
+> pronunciation, vocabulary, spelling, etc., between the United Kingdom,
+> North America, English-speaking African countries, Singapore, India,
+> and Oceania. Educated native English speakers using their version of
+> one of the standard forms of English are almost completely mutually
+> intelligible, but non-standard forms present significant dialectal
+> variations, and are marked by reduced intelligibility. English is
+> usually considered a symmetric case of a pluricentric language,
+> because there is no clear cultural dominance of one variety over
+> others.
+>
+> [https://en.wikipedia.org/wiki/English_language#Pluricentric_English][15]
+
+上段是更詳細的說明英語的多元特性。
+
+[15]: https://en.wikipedia.org/wiki/English_language#Pluricentric_English
+[16]: https://en.wikipedia.org/wiki/Pluricentric_language#English
+
+##  實務上的「主流英語」
+
+> A language is a dialect with an army and navy.
+>
+> 一個語言，就是一個有陸軍與海軍的方言。
+>
+> [https://en.wikipedia.org/wiki/A_language_is_a_dialect_with_an_army_and_navy][12]
+
+英語是通用語([lingua franca][19]) 之一（不同母語的人用來溝通的語言），而
+[目前的國際通用語即是英語][20]（用於商務、教育、科學、科技、外交、娛樂、
+廣播、航海、航空）。
+
+從綜合國力（文化、經濟、軍事）、「以該種英語為母語」的族群數量來看，所謂
+「美式英語」是絕對的強勢，「英式英語」則因為歷史上殖民時代的關係，在世界
+各地仍有相當影響力。
+
+是故，雖然技術上來說，並沒有所謂的「唯一標準英語」，但從通用語的角度來看
+，仍是以美式、英式英語為實務上的基準。
+
+### 世界英語
+
+若對英語在世界各地的演化、變化有興趣，可以參考以下連結：
+
+* 各區域的英語： [https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language][21]
+* 各區域的腔調： [https://en.wikipedia.org/wiki/Regional_accents_of_English][22]
+* [https://en.wikipedia.org/wiki/English_language#Three_circles_of_English-speaking_countries][13]
+* [https://en.wikipedia.org/wiki/World_Englishes#Kachru.27s_Three_Circles_of_English][14]
+* [https://en.wikipedia.org/wiki/English_language#English_as_a_global_language][17]
+* [https://en.wikipedia.org/wiki/World_Englishes][18]
+
+[12]: https://en.wikipedia.org/wiki/A_language_is_a_dialect_with_an_army_and_navy
+[13]: https://en.wikipedia.org/wiki/English_language#Three_circles_of_English-speaking_countries
+[14]: https://en.wikipedia.org/wiki/World_Englishes#Kachru.27s_Three_Circles_of_English
+[17]: https://en.wikipedia.org/wiki/English_language#English_as_a_global_language
+[18]: https://en.wikipedia.org/wiki/World_Englishes
+[19]: https://en.wikipedia.org/wiki/Lingua_franca
+[20]: https://en.wikipedia.org/wiki/List_of_lingua_francas#English
+[21]: https://en.wikipedia.org/wiki/List_of_dialects_of_the_English_language
+[22]: https://en.wikipedia.org/wiki/Regional_accents_of_English
