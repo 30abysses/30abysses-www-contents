@@ -1,7 +1,7 @@
 ﻿> http://www.30abysses.com/TWY/2017/02/13/english-verbal-communication.md
 > by TW Yang <twy@30abysses.com> 2017-02-13 CC-BY-4.0
 
-# 英語，說：口語溝通，發音、腔調、文法、用字
+# 英語，說：心態，口語溝通，發音、腔調、文法、用字
 
 談到英語，除了「如何學好英語？」外，第二常見的熱門話題大概就是「口語發音
 、腔調、文法、用字」。
@@ -11,7 +11,7 @@
 > 每個人學習模式不同、要找到興趣與動力、不要死背、注重活用。
 
 但在討論「口語發音、腔調、文法、用字」時，整個討論串多半會進入
-[炎上][1]([flaming][2]) （[筆戰][3] ）狀態。
+[炎上][1]([flaming][2]) （[筆戰][3]） 狀態。
 
 [1]: https://ja.wikipedia.org/wiki/%E7%82%8E%E4%B8%8A_(%E3%83%8D%E3%83%83%E3%83%88%E7%94%A8%E8%AA%9E)
 [2]: https://en.wikipedia.org/wiki/Flaming_(Internet)
@@ -75,16 +75,15 @@
 >
 > [https://en.wikipedia.org/wiki/Pluricentric_language#English][16]
 
-> English is a pluricentric language,[11] with differences in
-> pronunciation, vocabulary, spelling, etc., between the United Kingdom,
-> North America, English-speaking African countries, Singapore, India,
-> and Oceania. Educated native English speakers using their version of
-> one of the standard forms of English are almost completely mutually
-> intelligible, but non-standard forms present significant dialectal
-> variations, and are marked by reduced intelligibility. English is
-> usually considered a symmetric case of a pluricentric language,
-> because there is no clear cultural dominance of one variety over
-> others.
+> English is a pluricentric language, with differences in pronunciation,
+> vocabulary, spelling, etc., between the United Kingdom, North America,
+> English-speaking African countries, Singapore, India, and Oceania.
+> Educated native English speakers using their version of one of the
+> standard forms of English are almost completely mutually intelligible,
+> but non-standard forms present significant dialectal variations, and
+> are marked by reduced intelligibility. English is usually considered a
+> symmetric case of a pluricentric language, because there is no clear
+> cultural dominance of one variety over others.
 >
 > [https://en.wikipedia.org/wiki/English_language#Pluricentric_English][15]
 
@@ -107,10 +106,8 @@
 
 從綜合國力（文化、經濟、軍事）、「以該種英語為母語」的族群數量來看，所謂
 「美式英語」是絕對的強勢，「英式英語」則因為歷史上殖民時代的關係，在世界
-各地仍有相當影響力。
-
-是故，雖然技術上來說，並沒有所謂的「唯一標準英語」，但從通用語的角度來看
-，仍是以美式、英式英語為實務上的基準。
+各地仍有相當影響力。是故，雖然技術上來說，並沒有所謂的「唯一標準英語」，
+但從通用語的角度來看，仍是以美式、英式英語為實務上的基準。
 
 ### 世界英語
 
@@ -149,10 +146,10 @@
 
 溝通有分層級，而溝通的動機與前提在於尋找、建立「共同點」。
 
-* 如果你有才，例如，你掌握了獨特的技術，且對方要求才，那他自然會有意願與
+* 如果你有才，例如，你掌握了獨特的技術，且對方要求才，那他自然會有耐心與
   你溝通。
-* 如果你有錢，例如，你是觀光客，且對方要賺錢，那他自然會有意願與你溝通。
-* 如果你有權，例如，你是公務或商務代表，且對方有求於你，那他自然會有意願
+* 如果你有錢，例如，你是觀光客，且對方要賺錢，那他自然會有耐心與你溝通。
+* 如果你有權，例如，你是公務或商務代表，且對方有求於你，那他自然會有耐心
   與你溝通。
 
 反過來說，如果今天才、錢、權在對方手上，而你得靠自己去競爭、斡旋、協商、
@@ -178,9 +175,18 @@ terrific, terrible  。
 * 敢去糾正外國人／嗆老闆嗎？
 * 先拿出個英檢證書來看看
 * 學生幻想文
-* 半瓶水
+* 半瓶水／雞蛋裡挑骨頭
 * 玻璃心
 * 我都唸 IKEA
+
+值得一提的是「玻璃心」這句詞，有興趣可以看看這個 TED  演講，或許可以幫助
+了解「情緒」如何影響我們的思考方式。
+
+* [Why you think you're right — even if you're wrong][24]
+  （[中文字幕][25]）
+
+[24]: https://www.ted.com/talks/julia_galef_why_you_think_you_re_right_even_if_you_re_wrong
+[25]: https://www.ted.com/talks/julia_galef_why_you_think_you_re_right_even_if_you_re_wrong/transcript?language=zh-tw
 
 
 
@@ -192,5 +198,12 @@ terrific, terrible  。
 
 的確，語言最主要的功用就是溝通，是故，就語言的「正統性」而爭論並無必要。
 然而，這並不阻礙 **精益求精** 的精神，例如， IKEA 究竟是 eye-key-ya 還是
-ee-key-ya ？或許應該把重點放在把兩種音都能發得精確、精準。也就是把基本功
-練好，以避免誤會（例如： beach, bitch ）
+ee-key-ya ？應該把重點放在把兩種音都能發得精確，視情況判斷使用。
+
+易言之，
+
+* 練好英語基本功是一回事
+* 知曉實務上的主流英語（通用語）是一回事
+* 使用溝通對像能聽得懂的英語是一回事
+
+這三者並非互斥關係，而是可以相輔相成的。
