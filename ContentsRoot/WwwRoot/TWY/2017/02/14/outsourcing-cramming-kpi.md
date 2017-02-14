@@ -24,5 +24,11 @@
 
 
 
-# 何謂「核心業務」？
+##  何謂「核心業務」？
+
+因為每個人在不同的人生階段扮演的角色不同，所以
+核心業務([core business][3])、核心能力([core competency][4])對每個人來說
+都不太一樣，例如：愛情、友情、親情、金錢、閱歷、健康、智識……
+
+[4]: https://en.wikipedia.org/wiki/Core_competency
 
