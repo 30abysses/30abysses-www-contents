@@ -29,7 +29,7 @@
 * [Restaurant Hacks][8]:  料理秘訣。
 
 [3]: https://www.youtube.com/playlist?list=PLgBESEI2LUFt1JWivrwdHQ1TGJXp-yY5r
-[4]: https://www.youtube.com/watch?v=GVDs5HRWDgk&list=PLgBESEI2LUFuUyHLHjj4a9ymOyIUSmfkO
+[4]: https://www.youtube.com/playlist?list=PLgBESEI2LUFuUyHLHjj4a9ymOyIUSmfkO
 [6]: https://www.youtube.com/playlist?list=PLgBESEI2LUFveqVVjk_23a2emSaOsz6Po
 [8]: https://www.youtube.com/playlist?list=PLgBESEI2LUFufcFHkgSJ0zo7gZkTWXjlJ
 [9]: https://www.youtube.com/playlist?list=PLgBESEI2LUFv5ysl_6l5i7kGbjT6Igjgs
