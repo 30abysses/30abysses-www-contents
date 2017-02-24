@@ -3,19 +3,18 @@
 
 # ＣＳ： Windows 10 開發環境 VM
 
-這篇是試用微軟官方釋出的 Windows 10 開發環境 VM 心得。
+這篇是試用微軟官方釋出的 Windows 10 開發環境 VM 的筆記。
 
 
 
-# 微軟官方下載網址
+# 微軟官方下載網頁
 
 * [https://developer.microsoft.com/en-us/windows/downloads/virtual-machines][1]
 
 [1]: https://developer.microsoft.com/en-us/windows/downloads/virtual-machines
 
 
-
-# 版本
+##  版本
 
 目前(2017-02-24)官方提供兩個版本：
 
