@@ -1,7 +1,7 @@
 ﻿> http://www.30abysses.com/TWY/2017/02/24/explicit-memory.md
 > by TW Yang <twy@30abysses.com> 2017-02-24 CC-BY-4.0
 
-# 學習： explicit memory
+# 學習：外顯記憶(explicit memory)
 
 這篇是就外顯記憶(explicit memory) 的閱讀筆記整理。
 
