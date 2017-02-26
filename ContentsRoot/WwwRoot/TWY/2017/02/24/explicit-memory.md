@@ -5,7 +5,8 @@
 
 這篇是就外顯記憶(explicit memory) 的閱讀筆記整理。
 
-實用資訊：
+
+##  實用資訊
 
 * 心理壓力不利於形成、回想外顯記憶。
   * https://en.wikipedia.org/wiki/Stress_(biology)
