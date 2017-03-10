@@ -1,5 +1,5 @@
-﻿> http://www.30abysses.com/TWY/2017/03/05/this-old-tony.md
-> by TW Yang <twy@30abysses.com> 2017-03-05 CC-BY-4.0
+﻿> http://www.30abysses.com/TWY/2017/03/07/recall-memory.md
+> by TW Yang <twy@30abysses.com> 2017-03-07 CC-BY-4.0
 
 # 學習：記憶喚回(memory recall)
 
@@ -52,7 +52,7 @@
 ---
 
 * 後設認知(metacognition) 的重要性在於「觀察自己以察覺自己思緒上的錯誤、
-  弱點，  進而有意識的修正、改善自己思緒過程」的能力。
+  弱點，進而有意識的修正、改善自己思緒過程」的能力。
 * 記憶術(mnemonic)是針對資訊的特性，找出容易記憶的方式（例如，電話號碼，
   分成小節會比一次記一長串好記。）
 * 非自主記憶喚回(involuntary memory retrieval)：
