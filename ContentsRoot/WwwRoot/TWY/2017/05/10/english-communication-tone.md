@@ -73,6 +73,15 @@
 「強調(emphasize)」 的效用；若平常沒注意說話的語調而常常（不自覺地）誤用
 強調語氣，長期下來的確會給人「嗆、自大」的感覺。
 
+> 例：
+>
+> It seems to me that this idea is worth trying. If you allow me, I will do some research on it.
+>
+> 在我看來，這個想法值得一試，如果可以的話，我會做些相關研究。
+
+我幾乎沒聽過 "If you allow me, ..." 這種用法；通常是會說
+"With your permission, I will ..."  。
+
 ---
 > 我建議
 >
@@ -99,3 +108,19 @@ suggest that you should hurry up or it will all be gone soon."  就會過於
 > (O) I don`t understand why…
 >
 > 即使發現事情出錯、必須予以糾正時，也不能直接說  you`re wrong，因為那帶有攻擊的態度，用「我不了解」委婉帶出問題較為妥當。
+
+"You're wrong because ..."  的確是嗆(confrontational) 的語氣。與
+"I don't understand why ..."  類似的，可以說
+"That can't be right because ..." ，也是「對事不對人」的口氣。
+
+---
+> 怎麼樣
+>
+> (X) Are you interested or not…
+>
+> (O) Are you interested…
+>
+> 提出意見後，想問對方「怎麼樣，有興趣嗎？」切莫以 or not 作結尾，因為這種問法似在催促對方回答，有強 迫推銷的意味，容易引起反感。
+
+"Are you interested or not?"  的確如該文所述帶有催促的意味，但還沒有到嗆
+的程度，仍然會是由聲調決定語氣。
