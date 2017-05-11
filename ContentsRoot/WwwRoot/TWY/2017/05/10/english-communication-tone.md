@@ -137,8 +137,44 @@ suggest that you should hurry up or it will all be gone soon."  就會過於
 >
 > 傑森和老闆吵了一架並丟了工作。我就知道會這樣。
 
-這裡我不同意該文的主張，我不認為 "This is classic." 可以引申為「我就知道
-會這樣」。
+經典(classic) 的本意的確是「讚賞」，而刻意強調 ""This/that is classic."
+的確是有濃厚的反諷意味。但這裡我不同意該文的主張，我不認為
+"This is classic."  可以引申為「我就知道會這樣」。
 
-與「我就知道會這樣！」對應的是 "I knew it!" ，重點在於使用 know 這個動詞
-的過去式 knew 來強調「我早就知道會這樣！」。
+與「我就知道會這樣！」對應的是 "I knew it!" ；其重點在於使用 know 這個動
+詞的過去式 knew 來強調「我  **早**  就知道會這樣！」。
+
+---
+> (2) Famous last words. 說得好聽。
+>
+> 如果某人總是把話講得天花亂墜，卻不肯付諸行動，英文裡有句話叫做 famous last words，用以表達對說話者的質疑態度。
+
+"Famous last words."  的確是可以表達質疑態度，但該文將其譯為「說得好聽」
+與其「光說不作」的引申感覺上有點超譯了。這句話就只是針對別人的計畫、動作
+宣言表達 disbelief, 或「不看好」的意思。
+
+---
+> (3) Wise up! 放聰明點 !
+>
+> 當別人做了愚蠢的事，直接罵 you are stupid 未免衝擊太大，不妨輕鬆地說 hey! wise up 或 wise up、please，請對方放聰明一點。
+
+印像中，幾乎沒有聽過在美式英語中使用這個說法。
+
+可以說 "You need to be smarter than that."  ， "that" 意指對方搞砸之事。
+
+---
+> (4) You can`t be serious. 你不是認真的吧。
+>
+> 當對方說了、做了你不認同的事情，又或者一再犯錯讓你感到不可思議，一句 you can`t be serious 正好表達出你的難以置信。
+
+另一種說法就是以反問([rhetorical question][2])的方式問
+"Are you serious!?" ，「你認真的嗎!?」
+
+[2]: https://en.wikipedia.org/wiki/Rhetorical_question
+
+---
+> (5) You flatter yourself. 你高估自己了。
+>
+> flatter 解作「諂媚、奉承」，you flatter yourself 就是「奉承自己」、「自以為是」的意思。
+
+印像中，比較常聽到的是 "Don't flatter yourself."
