@@ -178,3 +178,48 @@ suggest that you should hurry up or it will all be gone soon."  就會過於
 > flatter 解作「諂媚、奉承」，you flatter yourself 就是「奉承自己」、「自以為是」的意思。
 
 印像中，比較常聽到的是 "Don't flatter yourself."
+
+
+
+# 「點到為止，重話不傷人」
+
+> 【情境一】 你發現信用卡被兒子刷爆了，在極度震驚、生氣和傷心之際，一時不知該說什麼
+>
+> Words fail me. 我不知該說什麼。
+>
+> 當情緒高漲時，脫口而出的話最容易令人後悔，「我不知道該說什麼」反而無聲勝有聲。
+
+直述 "I don't know what to say."  也是可以，但 "Words fail me." 語氣更強
+一些。
+
+---
+> 【情境二】 再過十分鐘就要上台簡報了，負責開場的 Peter 卻遲遲沒有現身，讓你急得直跳腳
+>
+> It`s beyond a joke. 這不是鬧著玩的。
+>
+> 當事情發展到令人擔心或焦慮的程度，beyond a joke 足可傳達事態的嚴重性，也巧妙地點出當事人不知輕重。
+
+感覺上在美式英語中很少聽到 "beyond a joke"  這種說法，通常會直接說
+"It's **not** funny!" 。
+
+---
+> 【情境三】 截止期限已過，下屬卻始終沒有完成報告，你想命令他立刻交出，卻不希望太權威
+>
+> I’ll thank you to…如果我會謝謝你。
+>
+> I’ll thank you to… 這個句型表面上是要感謝對方，其實多用在下令、請求的時機，語氣很禮貌，目的卻不容懷疑。
+
+感覺上在美式英語中很少聽到這種說法，通常會說 "I'd appreciate it
+**very much** if you ..." 。
+
+
+
+# 「還在說 Great job? 讚美人可以更有創意」
+
+> (1) You have discovered the secret! 你抓到要領了 !
+>
+> 這裡的 secret 不是真的指不為人知的「祕密」，而是代指事情的重點、任務的癥結、問題的答案等等。當下屬抓到這些關鍵，讓工作得以順利推展，你就可以用這句話來稱許他。
+
+感覺上在美式英語中幾乎完全沒聽過這種用法，通常就直說 "You've got it!" 。
+
+---
