@@ -34,7 +34,7 @@
 
 
 
-# 所謂「小心聽起來態度很差」
+# 「小心聽起來態度很差」
 
 該文章主張「小心聽起來態度很差」，並舉了個例子：「自大(arrogant)」。在這
 裡補充另外兩種負面的態度：
@@ -124,3 +124,21 @@ suggest that you should hurry up or it will all be gone soon."  就會過於
 
 "Are you interested or not?"  的確如該文所述帶有催促的意味，但還沒有到嗆
 的程度，仍然會是由聲調決定語氣。
+
+
+
+# 「不毒舌，罵人也可以很到位」
+
+> (1) This is classic. 我就知道。
+>
+> This is classic 照字面翻譯是「這是經典的」，引申為「我就知道會這樣」，常用在嘲諷的情況，譬如你預期對方會犯錯，而結果真是如此時，就可以丟出這句話。
+>
+> Jason had a fight with the boss and lost his job. This is classic.
+>
+> 傑森和老闆吵了一架並丟了工作。我就知道會這樣。
+
+這裡我不同意該文的主張，我不認為 "This is classic." 可以引申為「我就知道
+會這樣」。
+
+與「我就知道會這樣！」對應的是 "I knew it!" ，重點在於使用 know 這個動詞
+的過去式 knew 來強調「我早就知道會這樣！」。
