@@ -1,7 +1,7 @@
 ﻿> http://www.30abysses.com/TWY/2017/05/10/english-communication-tone.md
 > by TW Yang <twy@30abysses.com> 2017-05-10 CC-BY-4.0
 
-# 英語，說：（再）論「語氣」
+# 英語，說：再論「語氣」
 
 近來在社群網路上看到以下這篇文章被轉錄了多次，想點出幾件事。
 
@@ -294,8 +294,12 @@ suggest that you should hurry up or it will all be gone soon."  就會過於
 
 # 結論
 
-這裡不是在評判上述英文語句的對與錯，而是從實戰的角度提供經驗談；我的經驗
-也僅限於美式英語以及我所生長的世代與環境，可說是帶有強烈的主觀立場。是故
-，這篇文章的內容是 "better be taken with a [grain of salt][4]."
+學習語言，在實戰中從各種場景(context) 中學習拿捏語氣、聲調、用字遣詞，是
+很重要的；那篇「英語島」的文章的本意與主旨是好的，是提醒讀者不能只注意字
+面上的直譯，然而，該文章的內容不能照單全收。
+
+這裡不是在評判該文章中英語例句的對與錯，而是從實戰的角度提供經驗談；我的
+經驗也僅限於美式英語以及我所生長的世代與環境，可說是帶有強烈的主觀立場。
+是故，我這篇文章的內容是 "better be taken with a [grain of salt][4]."
 
 [4]: https://en.wikipedia.org/wiki/Grain_of_salt
