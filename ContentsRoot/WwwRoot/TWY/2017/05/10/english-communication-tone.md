@@ -55,13 +55,13 @@
 
 ---
 > 怎麼說，才不會給人自大的印象？其實只要在發言的一開始，稍稍改變講法即可，譬如：
-> 
+>
 > 我認為
-> 
+>
 > (X) I think that…
-> 
+>
 > (O) It seems to me that…
-> 
+>
 > 用 seem 表示接下來的想法是說話者主觀的判斷，隱含有不一定是正解的味道，聽者就不會感到那麼刺耳。
 
 "It seems to me that ..." 的確在語氣上比 "I think that ..." 來得更委婉，
@@ -70,5 +70,32 @@
 
 反過來說，如果把語調加強在 "**I** think that ...",
 "In **my** opinion, ...", "It seems to **me** that ..." ，那就的確會有
-「強調(emphasize)」 的效用；若平常沒注意說話的語調，長期下來的確會給人「
-嗆、自大」的感覺。
+「強調(emphasize)」 的效用；若平常沒注意說話的語調而常常（不自覺地）誤用
+強調語氣，長期下來的確會給人「嗆、自大」的感覺。
+
+---
+> 我建議
+>
+> (X) You`d better…
+>
+> (O) May I possibly suggest that…
+>
+> You’d better 意思是「你最好…」，翻譯本身沒有錯，但沒有被譯出來的是那種「如果你沒有這麼做，就會…」的脅迫語氣。
+
+"May I possibly suggest that ..." 的確是比 "You'd better ..." 更委婉，但
+是是十分  **客套**  的用語，而 "You'd better ..." 雖然帶有「強調」的語氣
+，但視聲調而定並不一定帶有「脅迫」的意思。
+
+例如，假設你工作場合收到消息說有免費食物，在「好康倒相報」時，就可以對同
+事說 "You'd better hurry or it'll all be gone." ；而 "May I possibly
+suggest that you should hurry up or it will all be gone soon."  就會過於
+客套。
+
+---
+> 你錯了
+>
+> (X) You`re wrong because…
+>
+> (O) I don`t understand why…
+>
+> 即使發現事情出錯、必須予以糾正時，也不能直接說  you`re wrong，因為那帶有攻擊的態度，用「我不了解」委婉帶出問題較為妥當。
