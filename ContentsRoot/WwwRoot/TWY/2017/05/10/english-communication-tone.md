@@ -95,10 +95,10 @@
 是是十分  **客套**  的用語，而 "You'd better ..." 雖然帶有「強調」的語氣
 ，但視聲調而定並不一定帶有「脅迫」的意思。
 
-例如，假設你工作場合收到消息說有免費食物，在「好康倒相報」時，就可以對同
-事說 "You'd better hurry or it'll all be gone." ；而 "May I possibly
-suggest that you should hurry up or it will all be gone soon."  就會過於
-客套。
+例如，在工作場合，你聽到消息說有免費食物，在「好康倒相報」時，就可以對同
+事說 "You'd better hurry, or it'll all be gone soon." ；而 "May I
+possibly suggest that you should hurry up or it will all be gone soon."
+就會過於客套。
 
 ---
 > 你錯了
@@ -143,6 +143,16 @@ suggest that you should hurry up or it will all be gone soon."  就會過於
 
 與「我就知道會這樣！」對應的是 "I knew it!" ；其重點在於使用 know 這個動
 詞的過去式 knew 來強調「我  **早**  就知道會這樣！」。
+
+例如，爐石戰記(Hearthstone) 中的末日預言者([Doomsayer][5])的
+[死亡台詞][6] 就是 "I knew it!" （「我就知道！」）：
+
+* Summon (登場): "The end is coming!!!"
+* Attack (攻擊): "Did I miss it?"
+* Death (死亡): "I knew it!"
+
+[5]: http://hearthstone.gamepedia.com/Doomsayer
+[6]: http://hearthstone.gamepedia.com/Doomsayer#Quotes
 
 ---
 > (2) Famous last words. 說得好聽。
@@ -262,7 +272,8 @@ suggest that you should hurry up or it will all be gone soon."  就會過於
 >
 > 不同意某人所做的事或所說的話時，不妨禮貌地先請求對方原諒自己的冒昧，再陳述你的意見。
 
-這是極度客氣／客套的說法，日常生活中極少會如此說話。
+這是極度客氣／客套的說法，在電影中會聽到 "Forgive me, sire / your
+highness, but ..."  這樣的台詞，但在日常生活中極少會如此說話。
 
 ---
 > (2) No disrespect…/No offense 沒有不敬 /惡意
