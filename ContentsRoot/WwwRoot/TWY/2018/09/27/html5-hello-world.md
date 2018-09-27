@@ -30,13 +30,13 @@
 > 2. Any number of comments and space characters.
 > 3. A `DOCTYPE`.
 > 4. Any number of comments and space characters.
-> 5. The document element, in the form of an `<html>` element.
+> 5. The document element, in the form of an `html` element.
 > 6. Any number of comments and space characters.
 
 且，如 
 [8.1.2.4. Optional tags](https://www.w3.org/TR/2017/REC-html52-20171214/syntax.html#optional-tags) 
-章節所述，在特定條件下 `<html>`, `<head>`, `<body>` 這些成員可以省略（但
- `<title>`  不可以。）
+章節所述，在特定條件下 `html`, `head`, `body` 這些成員可以省略（但
+ `title`  不可以。）
 
 是故，雖然看起來是非正統的寫法，但上面的最短 HTML5 "Hello, World!"  事實
 上是符合 HTML 5.2 規格的。
