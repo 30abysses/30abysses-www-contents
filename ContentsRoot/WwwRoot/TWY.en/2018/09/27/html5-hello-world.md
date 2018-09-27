@@ -28,13 +28,13 @@ to the [HTML 5.2 specification][1], section
 > 2. Any number of comments and space characters.
 > 3. A `DOCTYPE`.
 > 4. Any number of comments and space characters.
-> 5. The document element, in the form of an `<html>` element.
+> 5. The document element, in the form of an `html` element.
 > 6. Any number of comments and space characters.
 
 In addition, as described in section
 [8.1.2.4. Optional tags](https://www.w3.org/TR/2017/REC-html52-20171214/syntax.html#optional-tags),
-elements like `<html>`, `<head>`, `<body>` can be omitted under specific
-conditions (while the `<title>` element cannot.)
+elements like `html`, `head`, body` can be omitted under specific
+conditions (while the `title` element cannot.)
 
 Therefore, although it may look unorthodox, the minimum HTML5
 "Hello, World!" demo above actually complies with the HTML 5.2
