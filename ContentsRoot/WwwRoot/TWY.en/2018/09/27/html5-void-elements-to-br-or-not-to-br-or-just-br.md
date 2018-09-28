@@ -11,7 +11,7 @@ The top contenders are:
 <br />
 ```
 
-Syntactically speaking, they all comply with the
+Syntactically speaking, they all conforms to the
 [HTML 5.2 specification](https://www.w3.org/TR/2017/REC-html52-20171214/)
 as section
 [8.1.2.1. Start tags](https://www.w3.org/TR/html5/syntax.html#start-tags)
