@@ -5,7 +5,7 @@ console.log("Hello, World!");
 ```
 
 
-## C#-style TypeScript "Hello, World!"
+## C# 風格  TypeScript "Hello, World!"
 
 ```TypeScript
 namespace HelloWorld {
@@ -20,21 +20,20 @@ HelloWorld.Program.main();
 ```
 
 
-# Project configuration
+# 專案設定
 
 > https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 >
 > The presence of a tsconfig.json file in a directory indicates that the
 > directory is the root of a TypeScript project.
 
-A fresh copy of tsconfig.json can be generated with this command:
+可以用以下指令產生一份全新的 tsconfig.json:
 
 ```
 tsc --init
 ```
 
-The following TypeScript handbook sections further explain the technical
-aspects of tsconfig.json:
+以下 TypeScript 手冊章節解釋 tsconfig.json  技術層面的東西：
 
 * [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 * [Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
@@ -45,33 +44,32 @@ aspects of tsconfig.json:
 
 http://json.schemastore.org/tsconfig
 
-It is also available at
-https://schemastore.azurewebsites.net/schemas/json/tsconfig.json (see
-issue
-[Add HTTPS support](https://github.com/SchemaStore/schemastore/issues/12)
-for more information.)
+這也可以在
+https://schemastore.azurewebsites.net/schemas/json/tsconfig.json  取得（
+參考 issue
+[Add HTTPS support](https://github.com/SchemaStore/schemastore/issues/12) 
+。）
 
 
-# Debugging
+# 除錯
 
-Enable the `sourceMap` option when compiling TypeScript source code.
-Then debugging TypeScript *just works automagically* in the following
-environments:
+在編譯 TypeScript 時啟動 `sourceMap`  選項， TypeScript 除錯模式在以下環
+境裡就很奇妙地能正常使用：
 
 * Visual Studio Code + Node.js
 * Google Chrome
 
 
-# Static analysis
+# 靜態分析
 
 https://palantir.github.io/tslint/
 
 
-# TypeScript documentation
+# TypeScript  文件
 
 https://www.typescriptlang.org/docs/home.html
 
 
-## TypeScript language specification
+## TypeScript 言由規格
 
 https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
