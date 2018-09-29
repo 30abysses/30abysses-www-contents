@@ -1,4 +1,4 @@
-# HTML5 charset: `utf-8` or what?
+# HTML5 charset: `utf-8`  的寫法
 
 題目：「在設定 HTML5 charset  時，該如何寫 `utf-8`  ？」
 

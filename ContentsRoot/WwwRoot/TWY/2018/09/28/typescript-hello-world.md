@@ -70,6 +70,6 @@ https://palantir.github.io/tslint/
 https://www.typescriptlang.org/docs/home.html
 
 
-## TypeScript 言由規格
+## TypeScript 言語規格書
 
 https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
