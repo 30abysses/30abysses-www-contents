@@ -27,12 +27,12 @@
 https://www.w3.org/Style/CSS/
 
 
-## CSS  驗證
+# CSS  驗證工具
 
 https://jigsaw.w3.org/css-validator/
 
 
-## W3C Core Styles
+# W3C Core Styles
 
 W3C 提供 8  組 CSS  方便使用者上手： 
 https://www.w3.org/StyleSheets/Core/ .

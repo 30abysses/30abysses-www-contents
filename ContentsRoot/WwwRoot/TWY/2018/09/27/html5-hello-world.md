@@ -70,7 +70,7 @@ https://www.w3.org/TR/html/ （在今日 2018-09-27,  這連結會自動導向
 [HTML 5.2][1] 。）
 
 
-## HTML 驗證
+## HTML 驗證工具
 
 The [Nu Html Checker](https://validator.github.io/)
 
