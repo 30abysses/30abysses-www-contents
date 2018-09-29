@@ -45,7 +45,7 @@ specification.
 
 Web browsers (and the rendering engines they use) may accept invalid
 HTML inputs.  For example, Google Chrome 69.0.3497.100 accepts the
-following input,
+following input:
 
 ```HTML
 Hello, World!

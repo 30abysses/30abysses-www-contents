@@ -22,17 +22,17 @@
 ```
 
 
-# W3C CSS specifications
+# W3C CSS 格規文件
 
 https://www.w3.org/Style/CSS/
 
 
-## CSS validation
+## CSS  驗證
 
 https://jigsaw.w3.org/css-validator/
 
 
 ## W3C Core Styles
 
-8 CSS style sheets offered by W3C as an easy way to get started:
+W3C 提供 8  組 CSS  方便使用者上手： 
 https://www.w3.org/StyleSheets/Core/ .
