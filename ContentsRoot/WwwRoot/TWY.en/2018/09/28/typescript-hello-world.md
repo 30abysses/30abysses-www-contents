@@ -54,12 +54,8 @@ https://palantir.github.io/tslint/
 
 # TypeScript documentation
 
-https://www.typescriptlang.org/docs/home.html
+https://www.typescriptlang.org/docs/home.html (also available on Github:
+https://github.com/Microsoft/TypeScript-Handbook )
 
-The TypeScript handbook is also available at
-https://github.com/Microsoft/TypeScript-Handbook .
-
-
-## TypeScript language specification
-
+TypeScript language specification:
 https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md

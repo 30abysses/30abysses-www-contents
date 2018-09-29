@@ -52,12 +52,8 @@ https://palantir.github.io/tslint/
 
 # TypeScript  文件
 
-https://www.typescriptlang.org/docs/home.html
+https://www.typescriptlang.org/docs/home.html （也可從 Github 取得： 
+https://github.com/Microsoft/TypeScript-Handbook  ）
 
-TypeScript  手冊也可在此取得： 
-https://github.com/Microsoft/TypeScript-Handbook .
-
-
-## TypeScript 言語規格書
-
+TypeScript  言語規格書： 
 https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
