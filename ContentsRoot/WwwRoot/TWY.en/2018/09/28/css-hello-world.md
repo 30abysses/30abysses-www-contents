@@ -27,12 +27,12 @@
 https://www.w3.org/Style/CSS/
 
 
-## CSS validation
+# CSS validation
 
 https://jigsaw.w3.org/css-validator/
 
 
-## W3C Core Styles
+# W3C Core Styles
 
 8 CSS style sheets offered by W3C as an easy way to get started:
 https://www.w3.org/StyleSheets/Core/ .
