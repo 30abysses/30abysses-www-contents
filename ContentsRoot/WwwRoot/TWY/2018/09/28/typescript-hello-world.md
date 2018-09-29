@@ -5,21 +5,6 @@ console.log("Hello, World!");
 ```
 
 
-## C# 風格  TypeScript "Hello, World!"
-
-```TypeScript
-namespace HelloWorld {
-    export class Program {
-        static main(): void {
-            console.log("Hello, World!")
-        }
-    }
-}
-
-HelloWorld.Program.main();
-```
-
-
 # 專案設定
 
 > https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
@@ -54,7 +39,7 @@ https://schemastore.azurewebsites.net/schemas/json/tsconfig.json  取得（
 # 除錯
 
 在編譯 TypeScript 時啟動 `sourceMap`  選項， TypeScript 除錯模式在以下環
-境裡就很奇妙地能正常使用：
+境裡就 *很奇妙地* 能正常使用：
 
 * Visual Studio Code + Node.js
 * Google Chrome
@@ -68,6 +53,9 @@ https://palantir.github.io/tslint/
 # TypeScript  文件
 
 https://www.typescriptlang.org/docs/home.html
+
+TypeScript  手冊也可在此取得： 
+https://github.com/Microsoft/TypeScript-Handbook .
 
 
 ## TypeScript 言語規格書

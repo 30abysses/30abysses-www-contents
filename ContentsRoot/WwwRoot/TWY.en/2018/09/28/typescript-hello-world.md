@@ -5,21 +5,6 @@ console.log("Hello, World!");
 ```
 
 
-## C#-style TypeScript "Hello, World!"
-
-```TypeScript
-namespace HelloWorld {
-    export class Program {
-        static main(): void {
-            console.log("Hello, World!")
-        }
-    }
-}
-
-HelloWorld.Program.main();
-```
-
-
 # Project configuration
 
 > https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
@@ -70,6 +55,9 @@ https://palantir.github.io/tslint/
 # TypeScript documentation
 
 https://www.typescriptlang.org/docs/home.html
+
+The TypeScript handbook is also available at
+https://github.com/Microsoft/TypeScript-Handbook .
 
 
 ## TypeScript language specification
