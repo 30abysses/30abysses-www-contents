@@ -5,7 +5,7 @@ console.log("Hello, World!");
 ```
 
 
-# Project configuration
+# TypeScript project configuration
 
 > https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 >
@@ -37,7 +37,7 @@ issue
 for more information.)
 
 
-# Debugging
+# TypeScript debugging
 
 Enable the `sourceMap` option when compiling TypeScript source code.
 Then debugging TypeScript *just works automagically* in the following
@@ -47,7 +47,7 @@ environments:
 * Google Chrome
 
 
-# Static analysis
+# TypeScript static analysis
 
 https://palantir.github.io/tslint/
 
@@ -59,3 +59,14 @@ https://github.com/Microsoft/TypeScript-Handbook )
 
 TypeScript language specification:
 https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
+
+
+# JavaScript documentation
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+
+## JavaScript language specification
+
+* https://www.ecma-international.org/ecma-262/
+* ECMAScript 2015: https://www.ecma-international.org/ecma-262/6.0/

@@ -1,7 +1,7 @@
 # C# vs. TypeScript: "Hello, World!"
 
 
-## C#
+## C# "Hello, World!"
 
 ```CSharp
 class HelloWorld
@@ -14,7 +14,7 @@ class HelloWorld
 ```
 
 
-## TypeScript
+## TypeScript "Hello, World!"
 
 ```TypeScript
 console.log("Hello, World!");
@@ -41,7 +41,7 @@ console.log("Hello, World!");
 > applications.
 
 
-# TypeScript 軟體開發套件
+# TypeScript  軟體開發套件
 
 「 TypeScript 開發」在 Node.js  能運作的地方都有支援。
 

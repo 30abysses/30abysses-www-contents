@@ -5,7 +5,7 @@ console.log("Hello, World!");
 ```
 
 
-# 專案設定
+# TypeScript  專案設定
 
 > https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 >
@@ -36,7 +36,7 @@ https://schemastore.azurewebsites.net/schemas/json/tsconfig.json  取得（
 。）
 
 
-# 除錯
+# TypeScript  除錯
 
 在編譯 TypeScript 時啟動 `sourceMap`  選項， TypeScript 除錯模式在以下環
 境裡就 *很奇妙地* 能正常使用：
@@ -45,7 +45,7 @@ https://schemastore.azurewebsites.net/schemas/json/tsconfig.json  取得（
 * Google Chrome
 
 
-# 靜態分析
+# TypeScript  靜態分析
 
 https://palantir.github.io/tslint/
 
@@ -57,3 +57,14 @@ https://github.com/Microsoft/TypeScript-Handbook  ）
 
 TypeScript  言語規格書： 
 https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md
+
+
+# JavaScript  文件
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+
+## JavaScript 言語規格書
+
+* https://www.ecma-international.org/ecma-262/
+* ECMAScript 2015: https://www.ecma-international.org/ecma-262/6.0/

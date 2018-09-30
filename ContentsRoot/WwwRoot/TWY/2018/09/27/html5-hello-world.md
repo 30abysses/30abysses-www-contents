@@ -12,7 +12,7 @@
 ```
 
 
-## 最短的 HTML5 "Hello, World!"
+##  最短的 HTML5 "Hello, World!"
 
 ```HTML
 <!DOCTYPE html>
@@ -42,7 +42,7 @@
 上是符合 HTML 5.2 規格的。
 
 
-## 被網頁瀏覽器所接受的最短 HTML5 "Hello, World!"
+##  被網頁瀏覽器所接受的最短 HTML5 "Hello, World!"
 
 網頁瀏覽器（及其使用的繪製引擎）可能可以接受不正確的 HTML 輸入資料。例如
 ， Google Chrome 69.0.3497.100 就能接受以下輸入：
@@ -60,8 +60,9 @@ Hello, World!
 對錯誤容忍、處理機制更進一步的討論：
 
 * "How Browsers Work: Behind the scenes of modern web browsers", section
-[3.2.9 Browser error tolerance](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Browsers_error_tolerance)
-* HTML5 specification, section [8.2.8. An introduction to error handling and strange cases in the parser](https://www.w3.org/TR/2017/REC-html52-20171214/syntax.html#an-introduction-to-error-handling-and-strange-cases-in-the-parser)
+  [3.2.9 Browser error tolerance](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Browsers_error_tolerance)
+* HTML5 specification, section
+  [8.2.8. An introduction to error handling and strange cases in the parser](https://www.w3.org/TR/2017/REC-html52-20171214/syntax.html#an-introduction-to-error-handling-and-strange-cases-in-the-parser)
 
 
 # W3C HTML  規格書
@@ -70,7 +71,7 @@ https://www.w3.org/TR/html/ （在今日 2018-09-27,  這連結會自動導向
 [HTML 5.2][1] 。）
 
 
-## HTML 驗證工具
+# HTML  驗證工具
 
 The [Nu Html Checker](https://validator.github.io/)
 

@@ -1,7 +1,7 @@
 # C# vs. TypeScript: "Hello, World!"
 
 
-## C#
+## C# "Hello, World!"
 
 ```CSharp
 class HelloWorld
@@ -14,7 +14,7 @@ class HelloWorld
 ```
 
 
-## TypeScript
+## TypeScript "Hello, World!"
 
 ```TypeScript
 console.log("Hello, World!");
@@ -71,9 +71,8 @@ As of 2018-09-29, deno is at
 
 # C# documentation
 
-https://docs.microsoft.com/en-us/dotnet/csharp/ (also
-available on Github:
-https://github.com/dotnet/docs/tree/master/docs/csharp )
+https://docs.microsoft.com/en-us/dotnet/csharp/ (also available on
+Github: https://github.com/dotnet/docs/tree/master/docs/csharp )
 
 * [Get started with C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/)
 * [C# Quickstarts](https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/)
