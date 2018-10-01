@@ -60,8 +60,9 @@ and interprets it as the following:
 Error tolerance and handling mechanisms are further discussed in:
 
 * "How Browsers Work: Behind the scenes of modern web browsers", section
-[3.2.9 Browser error tolerance](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Browsers_error_tolerance)
-* HTML5 specification, section [8.2.8. An introduction to error handling and strange cases in the parser](https://www.w3.org/TR/2017/REC-html52-20171214/syntax.html#an-introduction-to-error-handling-and-strange-cases-in-the-parser)
+  [3.2.9 Browser error tolerance](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#Browsers_error_tolerance)
+* HTML5 specification, section
+  [8.2.8. An introduction to error handling and strange cases in the parser](https://www.w3.org/TR/2017/REC-html52-20171214/syntax.html#an-introduction-to-error-handling-and-strange-cases-in-the-parser)
 
 
 # W3C HTML specification
@@ -70,7 +71,7 @@ https://www.w3.org/TR/html/ (as of 2018-09-27, it automatically
 redirects to [HTML 5.2][1].)
 
 
-## HTML validation
+# HTML validation
 
 The [Nu Html Checker](https://validator.github.io/)
 
