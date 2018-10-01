@@ -21,7 +21,7 @@
 
 上面是語法上最短的 HTML5 "Hello, World!"  。
 
-根據 [HTML 5.2  規格][1]的 
+根據 [HTML 5.2  規格書][1]的 
 [8.1. Writing HTML documents](https://www.w3.org/TR/2017/REC-html52-20171214/syntax.html#writing-html-documents) 
 章節：
 
