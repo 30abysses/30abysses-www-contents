@@ -71,12 +71,20 @@ if (undefined ==  true) {} // no error
 if (undefined === true) {} // no error
 if (null      ==  true) {} // no error
 if (null      === true) {} // no error
-
-// This statement prints `true`.
-console.log((true
-    && ((Boolean(0) ==  false)  === true)
-    && ((Boolean(0) === false)  === true)
-) === true);
+if (0)                  {} // no error
+if ("")                 {} // no error
+if (NaN)                {} // no error
+if ([])                 {} // no error
+if ({})                 {} // no error
+if (undefined)          {} // no error
+if (null)               {} // no error
+if (Boolean(0))         {} // no error
+if (Boolean(""))        {} // no error
+if (Boolean(NaN))       {} // no error
+if (Boolean([]))        {} // no error
+if (Boolean({}))        {} // no error
+if (Boolean(undefined)) {} // no error
+if (Boolean(null))      {} // no error
 ```
 
 Also, expect the unexpected.
@@ -88,6 +96,7 @@ console.log((true
 
     && (Boolean("")                             === false)
     && (Boolean(new String(""))                 === true)
+    && (Boolean(new String("").valueOf())       === false)
     && (Boolean(String(new String("")))         === false)
 
     && (Boolean(null)                           === false)
@@ -110,6 +119,8 @@ console.log((true
     && (Boolean(new Number(NaN))                === true)
     && (Boolean(Number(new Number(NaN)))        === false)
 
+    && (Boolean(Infinity)                       === true)
+
     && (Boolean([])                             === true)
     && (Boolean([0])                            === true)
     && (Boolean([1])                            === true)
@@ -121,19 +132,22 @@ console.log((true
     && (("" === new String("").valueOf())       === true)
 
     && (("0" == String(0))                      === true)
-    && (("0" == new String(0))                  === true)
     && (("0" === String(0))                     === true)
+    && (("0" == new String(0))                  === true)
     && (("0" === new String(0))                 === false)
     && (("0" === String(new String(0)))         === true)
     && (("0" === new String(0).valueOf())       === true)
 
-    && ((undefined == false)                    === false)
+    && ((null == true)                          === false)
+    && ((null === true)                         === false)
     && ((null == false)                         === false)
+    && ((null === false)                        === false)
+    && ((undefined == true)                     === false)
+    && ((undefined === true)                    === false)
+    && ((undefined == false)                    === false)
+    && ((undefined === false)                   === false)
     && ((null == undefined)                     === true)
     && ((null === undefined)                    === false)
-
-    && ((NaN == NaN)                            === false)
-    && ((NaN === NaN)                           === false)
 ) === true);
 ```
 
@@ -186,7 +200,7 @@ console.log((true
 ```CSharp
 string world = "World";
 System.Console.WriteLine($"Hello, {world}!");           // prints `Hello, World!`
-System.Console.WriteLine(@"C:\Windows");                // prints `C:\Windows`
+System.Console.WriteLine(@"C:\Users" + "\\Public");     // prints `C:\Users\Public`
 decimal twoCents = 0.02m;
 System.Console.WriteLine($"This is my {twoCents:C}.");  // prints `This is my $0.02.`
 ```
