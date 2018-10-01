@@ -191,6 +191,7 @@ decimal twoCents = 0.02m;
 System.Console.WriteLine($"This is my {twoCents:C}.");  // prints `This is my $0.02.`
 ```
 
+
 ## TypeScript String
 
 * Keywords: `string`, `$`, `"`, `'`, `` ` ``, `\`
@@ -206,6 +207,7 @@ let hello: string = "Hello";
 let world: string = 'World';
 console.log(`${hello}, ${world}!`); // prints `Hello, World!`
 ```
+
 
 ---
 # Array
