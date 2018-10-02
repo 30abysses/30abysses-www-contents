@@ -146,10 +146,10 @@ console.log((true
 && (Boolean(new Number(-0))                 === true)
 && (Boolean(Number(new Number(-0)))         === false)
 
-&& (Boolean("0")                             === true)
-&& (Boolean(new String("0"))                 === true)
-&& (Boolean(new String("0").valueOf())       === true)
-&& (Boolean(String(new String("0")))         === true)
+&& (Boolean("0")                            === true)
+&& (Boolean(new String("0"))                === true)
+&& (Boolean(new String("0").valueOf())      === true)
+&& (Boolean(String(new String("0")))        === true)
 
 && (Boolean(NaN)                            === false)
 && (Boolean(new Number(NaN))                === true)
