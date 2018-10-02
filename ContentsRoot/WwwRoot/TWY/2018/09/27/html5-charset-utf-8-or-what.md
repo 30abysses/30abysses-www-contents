@@ -11,7 +11,7 @@ utf8
 UTF8
 ```
 
-答案： `utf-8`  ；下面是如何從 W3C  的文件裡得到那個答案：
+答案： `utf-8`  ；下面是如何從 W3C  的文件裡得到答案：
 
 1. HTML 5.2 specification, section
    [2.6.5. Extracting character encodings from meta elements](https://www.w3.org/TR/2017/REC-html52-20171214/infrastructure.html#extracting-character-encodings-from-meta-elements)

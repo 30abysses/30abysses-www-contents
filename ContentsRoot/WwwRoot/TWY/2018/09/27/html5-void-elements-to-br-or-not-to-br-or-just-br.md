@@ -70,7 +70,7 @@
 
 # XHTML empty elements
 
-[XHTML 1.0 規格書](https://www.w3.org/TR/2018/SPSD-xhtml1-20180327/)設定
+[XHTML 1.0 規格書](https://www.w3.org/TR/2018/SPSD-xhtml1-20180327/)制定
 了不同的規則。章節 
 [4.6. Empty Elements](https://www.w3.org/TR/2018/SPSD-xhtml1-20180327/#h-4.6) 
 說明了：
