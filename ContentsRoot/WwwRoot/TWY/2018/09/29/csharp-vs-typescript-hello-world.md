@@ -62,8 +62,9 @@ console.log("Hello, World!");
 
 在 2018 年 5  月， 
 [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl)  （ Node.js  創始者
-）開始實驗開發 deno, 
-[「一個基於 V8,  安全的 TypeScript 執行環境」](https://github.com/denoland/deno).
+）開始實驗開發 deno,
+["A secure TypeScript runtime on V8"](https://github.com/denoland/deno) 
+（「一個基於 V8,  安全的 TypeScript 執行環境」）。
 
 在 2018-09-29, deno 的版本是 
 [v0.1.5](https://github.com/denoland/deno/releases/tag/v0.1.5).

@@ -51,7 +51,7 @@
 Hello, World!
 ```
 
-並以以下的方式解讀之：
+並解讀為：
 
 ```HTML
 <html><head></head><body>Hello, World!</body></html>
