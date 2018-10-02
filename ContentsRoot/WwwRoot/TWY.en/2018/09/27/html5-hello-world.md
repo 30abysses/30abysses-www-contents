@@ -31,10 +31,10 @@ to the [HTML 5.2 specification][1], section
 > 5. The document element, in the form of an `html` element.
 > 6. Any number of comments and space characters.
 
-In addition, as described in section
+In addition, section
 [8.1.2.4. Optional tags](https://www.w3.org/TR/2017/REC-html52-20171214/syntax.html#optional-tags),
-elements like `html`, `head`, `body` can be omitted under specific
-conditions (while the `title` element cannot.)
+states that elements like `html`, `head`, `body` can be omitted under
+specific conditions (while the `title` element cannot.)
 
 Therefore, although it may look unorthodox, the minimum HTML5
 "Hello, World!" demo above actually conforms to the HTML 5.2
@@ -51,7 +51,7 @@ following input:
 Hello, World!
 ```
 
-and interprets it as the following:
+and interprets it as:
 
 ```HTML
 <html><head></head><body>Hello, World!</body></html>

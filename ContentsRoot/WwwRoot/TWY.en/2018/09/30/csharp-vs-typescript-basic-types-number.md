@@ -4,17 +4,20 @@
 # C# Number
 
 * Keywords: `sbyte`, `byte`, `char`, `short`, `ushort`, `int`, `uint`,
-  `long`, `ulong`, `float`, `double`, `decimal`
+  `long`, `ulong`, `float`, `double`, `decimal`, `l`, `L`, `f`, `F`,
+  `d`, `D`, `m`, `M`
 * "The
   [System.Numerics](https://docs.microsoft.com/en-us/dotnet/api/system.numerics?view=netcore-2.1)
   namespace contains numeric types that complement the numeric
   primitives"; for example,
   [the `BigInteger` struct](https://docs.microsoft.com/en-us/dotnet/api/system.numerics.biginteger?view=netcore-2.1).
+* C# supports
+  [overloadable operators](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/overloadable-operators).
 
 
 # TypeScript Number
 
-* Keywords: `number`; `NaN`
+* Keywords: `number`, `NaN`, `Infinity`
 * `number` implements the
   [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754)
   [double-precision floating-point format](https://en.wikipedia.org/wiki/Double-precision_floating-point_format).
