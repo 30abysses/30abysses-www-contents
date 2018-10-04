@@ -4,6 +4,7 @@
 # C# Tuple
 
 * Keywords: `(`, `)`
+* C# tuple  像是輕量級的 class  或 struct 。
 * `System.Tuple` class  家族
   * 屬於 reference  種類
   * 固定 property 名稱（例如 `Item1`, `Item2` ）

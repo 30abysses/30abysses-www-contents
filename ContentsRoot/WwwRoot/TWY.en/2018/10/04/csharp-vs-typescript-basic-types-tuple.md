@@ -4,6 +4,7 @@
 # C# Tuple
 
 * Keywords: `(`, `)`
+* C# tuples are like lightweight classes or structs.
 * The `System.Tuple` class family
   * Reference types
   * Fixed property names (such as `Item1`, `Item2`)
