@@ -7,7 +7,7 @@
   `long`, `ulong`, `float`, `double`, `decimal`, `l`, `L`, `f`, `F`,
   `d`, `D`, `m`, `M`
 * [System.Numerics](https://docs.microsoft.com/en-us/dotnet/api/system.numerics?view=netcore-2.1) 
-  此 namespace  下有多種補完 numeric primitives 的工具；例如： 
+  此 namespace  下有多種輔助 numeric primitives 的工具；例如： 
   [the `BigInteger` struct](https://docs.microsoft.com/en-us/dotnet/api/system.numerics.biginteger?view=netcore-2.1).
 * C#  支援
   [overloadable operators](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/overloadable-operators).

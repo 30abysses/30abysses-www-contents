@@ -3,12 +3,11 @@
 
 # C# Array
 
-* Keywords: `[`, `]`, `{`, `}`
-* C# arrays' sizes are established when they are created.
-* The `System.Array` class is the base class for all C# arrays and
-  provides array operation methods.
-* In addition to single-dimensional arrays, C# also supports
-  multidimensional and jagged arrays.
+* 關鍵字： `[`, `]`, `{`, `}`
+* C# array  的大小在它們被創造時決定。
+* `System.Array`  是所有 C# array 的  base class  ，提供操作 array  的方
+  法。
+* 除了一維 array  外， C# 也支援多維及 jagged array 。
 
 ```CSharp
 int[] s = { 1, 2, 3 };
@@ -21,8 +20,8 @@ int[][] j = { new[] { 1, 2 }, new[] { 3, 4 } };
 System.Console.WriteLine(j[1][1]);              // prints `4`
 ```
 
-* C# arrays are 0-indexed by default.  However, it is possible to create
-  arrays that are not.
+* C# array  的索引值預設從 0  開始；然而，是有方法創造出索引值不從 0  開
+  始的 array  。
 
 ```CSharp
 var a = Array.CreateInstance(typeof(int), new[] { 3 }, new[] { 2 });
@@ -39,14 +38,14 @@ System.Console.WriteLine(a.GetValue(4));       // prints `0`
 // System.Console.WriteLine(a.GetValue(5));    // throws `System.IndexOutOfRangeException`: "Index was outside the bounds of the array."
 ```
 
-* For more information, see
+* 這裡有更多資訊：
   * [The `System.Array` class](https://docs.microsoft.com/en-us/dotnet/api/system.array?view=netcore-2.1)
   * [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
 
 
 # TypeScript Array
 
-* Keywords: `[`, `]`, `Array<T>`, `...`
+* 關鍵字： `[`, `]`, `Array<T>`, `...`
 
 ```TypeScript
 let strings: string[] = ["foo", "bar"];
@@ -55,11 +54,11 @@ let mixed: (string | number)[] = [...strings, ...numbers];
 console.log(mixed);                                         // prints `["foo", "bar", 1, 2, 3]`
 ```
 
-* TypeScript arrays implement the `Array<T>` interface.
+* TypeScript array  實作 `Array<T>` 介面。
   * https://github.com/Microsoft/TypeScript/blob/release-3.1/lib/lib.es2015.core.d.ts#L21-L65
   * https://github.com/Microsoft/TypeScript/blob/release-3.1/lib/lib.es2015.iterable.d.ts#L50-L68
   * https://github.com/Microsoft/TypeScript/blob/release-3.1/lib/lib.es5.d.ts#L1135-L1285
-* TypeScript arrays are mutable.
+* TypeScript array  是 mutable  的。
 
 ```TypeScript
 let numbers: Array<number | string> = [0, 1, 2, 3, 4];
