@@ -64,22 +64,30 @@ console.log(mixed);                                         // prints `["foo", "
 ```TypeScript
 let numbers: Array<number | string> = [0, 1, 2, 3, 4];
 console.log(numbers);           // prints `[0, 1, 2, 3, 4]`
+
 numbers.splice(2, 1);
 console.log(numbers);           // prints `[0, 1, 3, 4]`
+
 numbers.splice(2, 0, "foo");
 console.log(numbers);           // prints `[0, 1, "foo", 3, 4]`
+
 numbers.shift();
 console.log(numbers);           // prints `[1, "foo", 3, 4]`
+
 numbers.pop();
 console.log(numbers);           // prints `[1, "foo", 3]`
+
 numbers.unshift("lol", "wut");
 console.log(numbers);           // prints `["lol", "wut", 1, "foo", 3]`
+
 numbers.push("bar", "baz");
 console.log(numbers);           // prints `["lol", "wut", 1, "foo", 3, "bar", "baz"]`
 console.log(numbers.length);    // prints `7`
+
 numbers[10] = 9000;
 console.log(numbers);           // prints `["lol", "wut", 1, "foo", 3, "bar", "baz", …, 9000]`
 console.log(numbers.length);    // prints `11`
+
 numbers.length = 3;
 console.log(numbers);           // prints `["lol", "wut", 1]`
 ```
