@@ -59,7 +59,6 @@ console.log(mixed);                                         // prints `["foo", "
   * https://github.com/Microsoft/TypeScript/blob/release-3.1/lib/lib.es2015.core.d.ts#L21-L65
   * https://github.com/Microsoft/TypeScript/blob/release-3.1/lib/lib.es2015.iterable.d.ts#L50-L68
   * https://github.com/Microsoft/TypeScript/blob/release-3.1/lib/lib.es5.d.ts#L1135-L1285
-
 * TypeScript arrays are mutable.
 
 ```TypeScript
