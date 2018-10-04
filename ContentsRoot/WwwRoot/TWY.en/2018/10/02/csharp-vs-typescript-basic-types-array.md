@@ -3,52 +3,80 @@
 
 # C# Array
 
-# TypeScript Array
+* Keywords: `[`, `]`, `{`, `}`
+* C# arrays' sizes are established when they are created.
+* The `System.Array` class is the base class for all C# arrays and
+  provides array operation methods.
+* In addition to single-dimensional arrays, C# also supports
+  multidimensional and jagged arrays.
 
-`[]`
-`Array<>`
+```CSharp
+int[] s = { 1, 2, 3 };
+System.Console.WriteLine(s[1]);                 // prints `2`
 
-```TypeScript
-const foo: string[] = [];
+int[,] m = { { 1, 2 }, { 3, 4 } };
+System.Console.WriteLine(m[1, 1]);              // prints `4`
 
-const foo:string[] = new Array(3).fill('');
-
-// what's the full signature of `interface Array<T>`?
-//The declaration of the 'Array' interface includes a property 'length' and a numeric index signature for the element type, along with other members:
-
-interface Array<T> {  
-    length: number;  
-    [x: number]: T;  
-    // Other members  
-}
-
-var a = [1, 2];                          // number[]  
-var b = ["hello", true];                 // (string | boolean)[]  
-var c: [number, string] = [3, "three"];  // [number, string]
-When the output target is ECMAScript 3 or 5, array literals containing spread elements are rewritten to invocations of the concat method. For example, the assignments
-
-var a = [2, 3, 4];  
-var b = [0, 1, ...a, 5, 6];
-are rewritten to
-
-var a = [2, 3, 4];  
-var b = [0, 1].concat(a, [5, 6]);
-
-
-When union, intersection, function, or constructor types are used as array element types they must be enclosed in parentheses. For example:
-
-(string | number)[]  
-(() => string)[]
-Alternatively, array types can be written using the 'Array<T>' notation. For example, the types above are equivalent to
-
-Array<string | number>  
-Array<() => string>
+int[][] j = { new[] { 1, 2 }, new[] { 3, 4 } };
+System.Console.WriteLine(j[1][1]);              // prints `4`
 ```
 
-[3.3.2 Array Types](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#332-array-types)
-[3.8.4 Array Type Literals](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#384-array-type-literals)
-[4.6 Array Literals](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#46-array-literals)
+* C# arrays are 0-indexed by default.  However, it is possible to create
+  arrays that are not.
 
-A type is said to be an array-like type if it is assignable (section 3.11.4) to the type any[].
-[3.11.4 Assignment Compatibility](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md#3114-assignment-compatibility)
+```CSharp
+var a = Array.CreateInstance(typeof(int), new[] { 3 }, new[] { 2 });
+System.Console.WriteLine(a.Rank);              // prints `1`
+System.Console.WriteLine(a.GetType());         // prints `System.Int32[*]`
+System.Console.WriteLine(a.GetLength(0));      // prints `3`
+System.Console.WriteLine(a.GetLowerBound(0));  // prints `2`
+System.Console.WriteLine(a.GetUpperBound(0));  // prints `4`
+// System.Console.WriteLine(a.GetValue(0));    // throws `System.IndexOutOfRangeException`: "Index was outside the bounds of the array."
+// System.Console.WriteLine(a.GetValue(1));    // throws `System.IndexOutOfRangeException`: "Index was outside the bounds of the array."
+System.Console.WriteLine(a.GetValue(2));       // prints `0`
+System.Console.WriteLine(a.GetValue(3));       // prints `0`
+System.Console.WriteLine(a.GetValue(4));       // prints `0`
+// System.Console.WriteLine(a.GetValue(5));    // throws `System.IndexOutOfRangeException`: "Index was outside the bounds of the array."
+```
 
+* For more information, see
+  * [The `System.Array` class](https://docs.microsoft.com/en-us/dotnet/api/system.array?view=netcore-2.1)
+  * [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
+
+
+# TypeScript Array
+
+* Keywords: `[`, `]`, `Array<T>`, `...`
+
+```TypeScript
+let strings: string[] = ["foo", "bar"];
+let numbers: Array<number> = [1, 2, 3];
+let mixed: (string | number)[] = [...strings, ...numbers];
+console.log(mixed);                                         // prints `["foo", "bar", 1, 2, 3]`
+```
+
+* TypeScript arrays implement the `Array<T>` interface.
+* TypeScript arrays are mutable.
+
+```TypeScript
+let numbers: Array<number | string> = [0, 1, 2, 3, 4];
+console.log(numbers);           // prints `[0, 1, 2, 3, 4]`
+numbers.splice(2, 1);
+console.log(numbers);           // prints `[0, 1, 3, 4]`
+numbers.splice(2, 0, "foo");
+console.log(numbers);           // prints `[0, 1, "foo", 3, 4]`
+numbers.shift();
+console.log(numbers);           // prints `[1, "foo", 3, 4]`
+numbers.pop();
+console.log(numbers);           // prints `[1, "foo", 3]`
+numbers.unshift("lol", "wut");
+console.log(numbers);           // prints `["lol", "wut", 1, "foo", 3]`
+numbers.push("bar", "baz");
+console.log(numbers);           // prints `["lol", "wut", 1, "foo", 3, "bar", "baz"]`
+console.log(numbers.length);    // prints `7`
+numbers[10] = 9000;
+console.log(numbers);           // prints `["lol", "wut", 1, "foo", 3, "bar", "baz", …, 9000]`
+console.log(numbers.length);    // prints `11`
+numbers.length = 3;
+console.log(numbers);           // prints `["lol", "wut", 1]`
+```
