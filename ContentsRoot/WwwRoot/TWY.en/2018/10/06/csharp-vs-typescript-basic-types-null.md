@@ -4,12 +4,12 @@
 # C# Null
 
 * Keyword: `null`
-* C# `null` represents both unavailable and uninitialized.
+* C# `null` represents both unavailable and uninitialized values.
 * C# `null` is the default value of all reference types.
 
 
 # TypeScript Null
 
 * Keyword: `null`
-* TypeScript `null` represents unavailable.
+* TypeScript `null` represents unavailable values.
 * TypeScript `null` has its own type of the same name.

@@ -9,8 +9,8 @@
 * [Dynamic, Any](../../10/06/csharp-vs-typescript-basic-types-dynamic-any.md)
 * [Void](../../10/06/csharp-vs-typescript-basic-types-void.md)
 * [Null](../../10/06/csharp-vs-typescript-basic-types-null.md)
+* [Undefined](../../10/06/csharp-vs-typescript-basic-types-null-undefined.md)
 
-* Undefined
 * Never
 * Object
 
