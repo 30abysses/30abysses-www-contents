@@ -4,7 +4,7 @@
 # C# Null
 
 * Keyword: `null`
-* C# `null` represents both unavailable and uninitialized values.
+* C# `null` represents unavailable or uninitialized values.
 * C# `null` is the default value of all reference types.
 
 

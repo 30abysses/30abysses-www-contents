@@ -4,7 +4,7 @@
 # C# Null
 
 * 關鍵字： `null`
-* C# `null` 代表無法使用的、未初始化的數值。
+* C# `null` 代表無法使用的或未初始化的數值。
 * C# `null` 是所有 reference type 的預設值。
 
 
