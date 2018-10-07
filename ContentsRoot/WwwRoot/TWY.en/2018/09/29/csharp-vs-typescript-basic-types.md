@@ -6,8 +6,8 @@
 * [Array](../../10/02/csharp-vs-typescript-basic-types-array.md)
 * [Tuple](../../10/04/csharp-vs-typescript-basic-types-tuple.md)
 * [Enum](../../10/05/csharp-vs-typescript-basic-types-enum.md)
+* [Dynamic, Any](../../10/06/csharp-vs-typescript-basic-types-dynamic-any.md)
 
-* Any
 * Void
 * Null
 * Undefined
