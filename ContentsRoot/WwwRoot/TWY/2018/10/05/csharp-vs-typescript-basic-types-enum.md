@@ -13,15 +13,17 @@
 enum E1
 {
     A,
-    B,
+    B = 1,
+    C = 2,
+
 }
 
 E1 e = E1.B;
 System.Console.WriteLine(e);                                                            // prints `B`
 e = (E1)0;
 System.Console.WriteLine(e);                                                            // prints `A`
-e = (E1)5;
-System.Console.WriteLine(e);                                                            // prints `5`
+e = E1.B | E1.C;
+System.Console.WriteLine(e);                                                            // prints `3`
 
 [System.Flags]
 enum E2
@@ -41,7 +43,7 @@ System.Console.WriteLine(p);                                                    
 p ^= E2.Readable;
 System.Console.WriteLine(p);                                                            // prints `Writable, Deletable`
 
-System.Console.WriteLine($"[{string.Join(", ", System.Enum.GetNames(typeof(E2)))}]");
+System.Console.WriteLine($"[{string.Join(", ", System.Enum.GetNames(typeof(E2)))}]");   // prints `[None, Readable, Writable, Deletable]`
 ```
 
 

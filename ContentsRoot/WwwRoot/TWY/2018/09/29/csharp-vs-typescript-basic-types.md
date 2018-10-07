@@ -6,12 +6,12 @@
 * [Array](../../10/02/csharp-vs-typescript-basic-types-array.md)
 * [Tuple](../../10/04/csharp-vs-typescript-basic-types-tuple.md)
 * [Enum](../../10/05/csharp-vs-typescript-basic-types-enum.md)
+* [Dynamic, Any](../../10/06/csharp-vs-typescript-basic-types-dynamic-any.md)
+* [Void](../../10/06/csharp-vs-typescript-basic-types-void.md)
+* [Null](../../10/06/csharp-vs-typescript-basic-types-null.md)
+* [Undefined](../../10/06/csharp-vs-typescript-basic-types-null-undefined.md)
+* [Never](../../10/06/csharp-vs-typescript-basic-types-never.md)
 
-* Any
-* Void
-* Null
-* Undefined
-* Never
 * Object
 
 * Type assertion
