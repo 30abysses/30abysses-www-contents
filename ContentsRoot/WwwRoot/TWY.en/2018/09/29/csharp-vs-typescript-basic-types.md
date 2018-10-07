@@ -11,8 +11,4 @@
 * [Null](../../10/06/csharp-vs-typescript-basic-types-null.md)
 * [Undefined](../../10/06/csharp-vs-typescript-basic-types-null-undefined.md)
 * [Never](../../10/06/csharp-vs-typescript-basic-types-never.md)
-
-* Object
-
-* Type assertion
-* Type casting
+* [Object](../../10/07/csharp-vs-typescript-basic-types-object.md)
