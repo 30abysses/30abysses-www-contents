@@ -8,8 +8,8 @@
 * [Enum](../../10/05/csharp-vs-typescript-basic-types-enum.md)
 * [Dynamic, Any](../../10/06/csharp-vs-typescript-basic-types-dynamic-any.md)
 * [Void](../../10/06/csharp-vs-typescript-basic-types-void.md)
+* [Null](../../10/06/csharp-vs-typescript-basic-types-null.md)
 
-* Null
 * Undefined
 * Never
 * Object
