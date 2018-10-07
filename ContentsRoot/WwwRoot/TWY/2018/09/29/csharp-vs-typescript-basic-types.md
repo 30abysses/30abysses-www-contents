@@ -10,8 +10,8 @@
 * [Void](../../10/06/csharp-vs-typescript-basic-types-void.md)
 * [Null](../../10/06/csharp-vs-typescript-basic-types-null.md)
 * [Undefined](../../10/06/csharp-vs-typescript-basic-types-null-undefined.md)
+* [Never](../../10/06/csharp-vs-typescript-basic-types-never.md)
 
-* Never
 * Object
 
 * Type assertion
